@@ -3,8 +3,7 @@ import java.util.Map;
 
 public class HashMapCollection {
 
-    void HashMapSample()
-    {
+    void HashMapSample() {
 
         HashMap<Integer, String> map = new HashMap<Integer, String>();
 
@@ -16,8 +15,7 @@ public class HashMapCollection {
         map.put(5, "five");
 
         // iterator
-        for(Map.Entry<Integer, String> entry : map.entrySet())
-        {
+        for(Map.Entry<Integer, String> entry : map.entrySet()) {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         }
 
