@@ -3,7 +3,7 @@ import java.util.List;
 
 public class ArrayListCollection {
 
-    void ArrayListSample() {
+    ArrayListCollection() {
         List<String> list = new ArrayList<String>();
 
         // can also write this

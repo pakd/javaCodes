@@ -4,7 +4,7 @@ import java.util.TreeMap;
 
 public class LinkedHashMapCollection {
 
-    void LinkedHashMapSample() {
+    LinkedHashMapCollection() {
 
         Map<Integer, String> map = new LinkedHashMap<Integer, String>();
 

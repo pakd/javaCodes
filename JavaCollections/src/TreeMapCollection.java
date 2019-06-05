@@ -4,10 +4,9 @@ import java.util.TreeMap;
 public class TreeMapCollection {
 
     // tree map stores keys in sorted order
-    void TreeMapSample() {
+    TreeMapCollection() {
 
         Map<Integer, String> map = new TreeMap<Integer, String>();
-
 
         // putting values in map
         map.put(4, "four");

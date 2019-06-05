@@ -2,7 +2,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class LinkedListCollection {
-    void LinkedListSample() {
+    LinkedListCollection() {
+
         List<Integer> list = new LinkedList<Integer>();
 
         // can also write this

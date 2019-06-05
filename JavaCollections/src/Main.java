@@ -1,31 +1,35 @@
 public class Main {
 
     static void testHashMap() {
-
         HashMapCollection hashMapSample = new HashMapCollection();
-        hashMapSample.HashMapSample();
     }
 
     static void testArrayList() {
         ArrayListCollection arrayListSample = new ArrayListCollection();
-        arrayListSample.ArrayListSample();
     }
 
     static  void testLinkedList() {
         LinkedListCollection linkedListSample = new LinkedListCollection();
-        linkedListSample.LinkedListSample();
     }
 
-    static void testTreeMap()
-    {
+    static void testTreeMap() {
         TreeMapCollection treeMapSample = new TreeMapCollection();
-        treeMapSample.TreeMapSample();
     }
 
-    static void testLinkedHashMap()
-    {
+    static void testLinkedHashMap() {
         LinkedHashMapCollection linkedHashMapCollection = new LinkedHashMapCollection();
-        linkedHashMapCollection.LinkedHashMapSample();
+    }
+
+    static void testHashSet() {
+        HashSetCollection hashSetCollection = new HashSetCollection();
+    }
+
+    static void testLinkedHashSet() {
+        LinkedHashSetCollection linkedHashSetCollection = new LinkedHashSetCollection();
+    }
+
+    static void testTreeSet() {
+        TreeSetCollection treeSetCollection = new TreeSetCollection();
     }
 
     public static void main(String[] args) {
@@ -38,7 +42,13 @@ public class Main {
 
         // testLinkedHashMap(); // 4
 
-        testTreeMap(); // 5
+        // testTreeMap(); // 5
+
+        // testHashSet(); // 6
+
+        // testLinkedHashSet(); // 7
+
+        // testTreeSet();// 8
 
     }
 }
