@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76ec2dbd-ebca-4816-8f94-b62d304358a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HashSetCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedHashSetCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeSetCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QueueCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/HashMapCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/HashMapCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/HashSetCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/HashSetCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/LinkedHashSetCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/LinkedHashSetCollection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayListCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayListCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashMapCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMapCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedHashMapCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedHashMapCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/TreeSetCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/TreeSetCollection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeMapCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeMapCollection.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="393">
+              <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
               <folding>
                 <element signature="e#51#52#0" expanded="true" />
                 <element signature="e#124#125#0" expanded="true" />
@@ -49,6 +45,34 @@
                 <element signature="e#846#847#0" expanded="true" />
                 <element signature="e#879#880#0" expanded="true" />
                 <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+                <element signature="e#1193#1194#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StackCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+              <folding>
+                <element signature="e#124#132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/QueueCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,10 +98,12 @@
         <option value="$PROJECT_DIR$/src/LinkedListCollection.java" />
         <option value="$PROJECT_DIR$/src/TreeMapCollection.java" />
         <option value="$PROJECT_DIR$/src/LinkedHashMapCollection.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/HashSetCollection.java" />
         <option value="$PROJECT_DIR$/src/LinkedHashSetCollection.java" />
         <option value="$PROJECT_DIR$/src/TreeSetCollection.java" />
+        <option value="$PROJECT_DIR$/src/StackCollection.java" />
+        <option value="$PROJECT_DIR$/src/QueueCollection.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -157,12 +183,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559500678201</updated>
       <workItem from="1559500682305" duration="2516000" />
-      <workItem from="1559751251166" duration="3056000" />
+      <workItem from="1559751251166" duration="4844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5572000" />
+    <option name="totallyTimeSpent" value="7360000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -177,7 +203,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -186,7 +212,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33152762" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33152762" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -194,7 +220,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -292,10 +318,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/StackCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="e#124#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QueueCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="393">
+          <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
           <folding>
             <element signature="e#51#52#0" expanded="true" />
             <element signature="e#124#125#0" expanded="true" />
@@ -313,6 +359,10 @@
             <element signature="e#846#847#0" expanded="true" />
             <element signature="e#879#880#0" expanded="true" />
             <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
           </folding>
         </state>
       </provider>

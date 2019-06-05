@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class Main {
 
     static void testHashMap() {
@@ -32,23 +34,29 @@ public class Main {
         TreeSetCollection treeSetCollection = new TreeSetCollection();
     }
 
+    static void testStack() {
+        StackCollection stackCollection = new StackCollection();
+    }
+
+    static void testQueueLinkedList() {
+        QueueCollection queueCollection = new QueueCollection();
+    }
+
     public static void main(String[] args) {
 
         // testArrayList(); // 1
-
         // testLinkedList(); // 2
 
         // testHashMap(); // 3
-
         // testLinkedHashMap(); // 4
-
         // testTreeMap(); // 5
 
         // testHashSet(); // 6
-
         // testLinkedHashSet(); // 7
-
         // testTreeSet();// 8
+
+        // testStack(); // 9
+        // testQueueLinkedList(); // 10
 
     }
 }
