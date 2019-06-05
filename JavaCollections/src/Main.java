@@ -15,15 +15,30 @@ public class Main {
         LinkedListCollection linkedListSample = new LinkedListCollection();
         linkedListSample.LinkedListSample();
     }
+
+    static void testTreeMap()
+    {
+        TreeMapCollection treeMapSample = new TreeMapCollection();
+        treeMapSample.TreeMapSample();
+    }
+
+    static void testLinkedHashMap()
+    {
+        LinkedHashMapCollection linkedHashMapCollection = new LinkedHashMapCollection();
+        linkedHashMapCollection.LinkedHashMapSample();
+    }
+
     public static void main(String[] args) {
 
-        // uncomment ot run array list sample code
-        // testArrayList();
+        // testArrayList(); // 1
 
-        testLinkedList();
+        // testLinkedList(); // 2
 
-        // uncomment to run hash map sample code
-        // testHashMap();
+        // testHashMap(); // 3
+
+        // testLinkedHashMap(); // 4
+
+        testTreeMap(); // 5
 
     }
 }
