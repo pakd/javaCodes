@@ -12,6 +12,10 @@ public class Main {
 
         // test insert node
         linkedListLibrary.test_insert_node();
+
+        // test add two list
+        AddTwoLinkedList addTwoLinkedList = new AddTwoLinkedList();
+        addTwoLinkedList.test_add_lists();
     }
 
 
