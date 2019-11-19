@@ -16,6 +16,14 @@ public class Main {
         // test add two list
         AddTwoLinkedList addTwoLinkedList = new AddTwoLinkedList();
         addTwoLinkedList.test_add_lists();
+
+        // test find middle element
+        FindMiddleNode findMiddleNode = new FindMiddleNode();
+        findMiddleNode.test_find_middle_node();
+
+        // test find square root node
+        FindSquareRootNode findSquareRootNode = new FindSquareRootNode();
+        findSquareRootNode.test_find_square_root_node();
     }
 
 
