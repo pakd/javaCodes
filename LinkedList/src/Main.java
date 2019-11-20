@@ -2,8 +2,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        LinkedListLibrary linkedListLibrary = new LinkedListLibrary();
-//
+        LinkedListLibrary linkedListLibrary = new LinkedListLibrary();
+
 //        // test display linked list
 //        linkedListLibrary.test_display();
 //
@@ -31,10 +31,14 @@ public class Main {
 //
 //        // test reverse linked list
 //        ListReversal listReversal = new ListReversal();
-//        listReversal.test_reverse()
+//        listReversal.test_reverse();
+//
+//        ListReversal listReversal = new ListReversal();
+//        listReversal.test_reverse_recursive();
+
 
         ListReversal listReversal = new ListReversal();
-        listReversal.test_reverse_recursive();
+        listReversal.test_reverse_recursive_in_block_of_k();
     }
 
 

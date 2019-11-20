@@ -27,6 +27,29 @@ public class ListReversal {
         p.next = null;
     }
 
+    public Node reverse_recursive_in_block_of_k(Node head, int k) {
+        Node curr = head;
+        Node next = null;
+        Node prev = null;
+        int count = 0;
+
+
+        while(curr != null && count < k) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+            count++;
+        }
+
+        if(next != null) {
+            head.next = reverse_recursive_in_block_of_k(next, k);
+        }
+
+        head = prev;
+        return head;
+    }
+
     public void test_reverse() {
         Node p = new Node(1);
         p.next = new Node(2);
@@ -50,6 +73,20 @@ public class ListReversal {
         linkedListLibrary.DisplayNodes(q);
         reverse_recursive(q);
         linkedListLibrary.DisplayNodes(head);
+
+    }
+
+    public void test_reverse_recursive_in_block_of_k() {
+        LinkedListLibrary linkedListLibrary = new LinkedListLibrary();
+        Node head = null;
+        for(int i=1; i<=10; i++) {
+            head = linkedListLibrary.InsertNode(head, i);
+        }
+        linkedListLibrary.DisplayNodes(head);
+        head = reverse_recursive_in_block_of_k(head, 3);
+        linkedListLibrary.DisplayNodes(head);
+
+
 
     }
 }
