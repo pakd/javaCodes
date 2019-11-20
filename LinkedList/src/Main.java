@@ -2,8 +2,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        LinkedListLibrary linkedListLibrary = new LinkedListLibrary();
-
+//        LinkedListLibrary linkedListLibrary = new LinkedListLibrary();
+//
 //        // test display linked list
 //        linkedListLibrary.test_display();
 //
@@ -29,16 +29,21 @@ public class Main {
 //        MergeTwoSortedLinkedLists mergeTwoSortedLinkedLists = new MergeTwoSortedLinkedLists();
 //        mergeTwoSortedLinkedLists.test_merge();
 //
-//        // test reverse linked list
+//        // test reverse list
 //        ListReversal listReversal = new ListReversal();
 //        listReversal.test_reverse();
 //
+//        // test reverse list recursive
 //        ListReversal listReversal = new ListReversal();
 //        listReversal.test_reverse_recursive();
+//
+//        // test reverse list in block of k
+//        ListReversal listReversal = new ListReversal();
+//        listReversal.test_reverse_recursive_in_block_of_k();
 
-
-        ListReversal listReversal = new ListReversal();
-        listReversal.test_reverse_recursive_in_block_of_k();
+        // test clone list with random links
+        CloneLinkedListWithRandomPointer cloneLinkedListWithRandomPointer = new CloneLinkedListWithRandomPointer();
+        cloneLinkedListWithRandomPointer.test_clone_list();
     }
 
 
