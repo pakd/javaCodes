@@ -2,8 +2,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        LinkedListLibrary linkedListLibrary = new LinkedListLibrary();
-
+//        LinkedListLibrary linkedListLibrary = new LinkedListLibrary();
+//
 //        // test display linked list
 //        linkedListLibrary.test_display();
 //
@@ -24,10 +24,17 @@ public class Main {
 //        // test find square root node
 //        FindSquareRootNode findSquareRootNode = new FindSquareRootNode();
 //        findSquareRootNode.test_find_square_root_node();
+//
+//        // test merge two sorted lists
+//        MergeTwoSortedLinkedLists mergeTwoSortedLinkedLists = new MergeTwoSortedLinkedLists();
+//        mergeTwoSortedLinkedLists.test_merge();
+//
+//        // test reverse linked list
+//        ListReversal listReversal = new ListReversal();
+//        listReversal.test_reverse()
 
-        // test merge two sorted lists
-        MergeTwoSortedLinkedLists mergeTwoSortedLinkedLists = new MergeTwoSortedLinkedLists();
-        mergeTwoSortedLinkedLists.test_merge();
+        ListReversal listReversal = new ListReversal();
+        listReversal.test_reverse_recursive();
     }
 
 
