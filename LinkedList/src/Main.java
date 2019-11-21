@@ -40,10 +40,13 @@ public class Main {
 //        // test reverse list in block of k
 //        ListReversal listReversal = new ListReversal();
 //        listReversal.test_reverse_recursive_in_block_of_k();
+//
+//        // test clone list with random links
+//        CloneLinkedListWithRandomPointer cloneLinkedListWithRandomPointer = new CloneLinkedListWithRandomPointer();
+//        cloneLinkedListWithRandomPointer.test_clone_list();
 
-        // test clone list with random links
-        CloneLinkedListWithRandomPointer cloneLinkedListWithRandomPointer = new CloneLinkedListWithRandomPointer();
-        cloneLinkedListWithRandomPointer.test_clone_list();
+        JosephusCircle josephusCircle = new JosephusCircle();
+        josephusCircle.test_josephus_circle();
     }
 
 
