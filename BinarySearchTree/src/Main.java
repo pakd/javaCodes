@@ -6,7 +6,10 @@ public class Main {
 //        bstLibrary.testInsertRecursive();
 
         BSTLibrary bstLibrary = new BSTLibrary();
-        bstLibrary.testSearchRecursive();
+
+        // bstLibrary.testSearchRecursive();
+
+        bstLibrary.testDisplayLevelOrder();
 
 
 

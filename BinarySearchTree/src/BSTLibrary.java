@@ -1,3 +1,7 @@
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
 public class BSTLibrary {
 
     public Node Insert(Node root, int key) {
@@ -32,6 +36,29 @@ public class BSTLibrary {
         }
     }
 
+    public void DisplayLevelOrder(Node root) {
+
+        if(root == null) {
+            return;
+        }
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+
+        while(q.isEmpty() != true) {
+            Node temp = q.peek();
+            q.remove();
+
+            System.out.print(temp.data + " ");
+            if(temp.left != null) {
+                q.add(temp.left);
+            }
+            if(temp.right != null) {
+                q.add(temp.right);
+            }
+
+        }
+    }
+
 
     public void testInsertRecursive() {
         int[] arr = {13, 3, 4, 12, 14, 10, 5, 1, 8, 2, 7, 9, 11, 6, 18};
@@ -53,5 +80,15 @@ public class BSTLibrary {
         System.out.println(ans.data);
         ans = SearchRecursive(root, 40);
         System.out.println(ans);
+    }
+
+    public void testDisplayLevelOrder() {
+        int[] arr = {13, 3, 4, 12, 14, 10, 5, 1, 8, 2, 7, 9, 11, 6, 18};
+        Node root = null;
+        for( int x : arr) {
+            root = Insert(root, x);
+        }
+
+        DisplayLevelOrder(root);
     }
 }
