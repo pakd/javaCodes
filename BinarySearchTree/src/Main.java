@@ -26,12 +26,20 @@ public class Main {
 //        treePath.test_print_all_paths();
 //        treePath.test_reverse_path_to_node_x();
 //
+//        // test kdistant from root and given node
 //        KDistant kDistant = new KDistant();
 //        kDistant.test_k_distant_from_root();
 //        kDistant.test_k_distant_nodes_from_given_node();
+//
+//        // test iterative single stack traversals
+//        IterativeTraversals iterativeTraversals = new IterativeTraversals();
+//        iterativeTraversals.test();
 
-        IterativeTraversals iterativeTraversals = new IterativeTraversals();
-        iterativeTraversals.test();
+        // test find lca
+        LowestCommonAncestor lowestCommonAncestor = new LowestCommonAncestor();
+        lowestCommonAncestor.test_find_lca();
+
+
 
     }
 }
