@@ -12,11 +12,13 @@ public class Main {
 //
 //        // test level order
 //        bstLibrary.testDisplayLevelOrder();
+//
+//        // test height, size
+//        BSTSizeUtils bstSizeUtils = new BSTSizeUtils();
+//        bstSizeUtils.testUtils();
 
-        // test height, size
-        BSTSizeUtils bstSizeUtils = new BSTSizeUtils();
-        bstSizeUtils.testUtils();
-
+        TreeViews treeViews = new TreeViews();
+        treeViews.test_view();
 
 
     }
