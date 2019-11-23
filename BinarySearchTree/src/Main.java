@@ -13,12 +13,18 @@ public class Main {
 //        // test level order
 //        bstLibrary.testDisplayLevelOrder();
 //
-//        // test height, size
+//        // test height, size, max, diameter
 //        BSTSizeUtils bstSizeUtils = new BSTSizeUtils();
 //        bstSizeUtils.testUtils();
+//
+//        // test views, left, right, vertical
+//        TreeViews treeViews = new TreeViews();
+//        treeViews.test_view();
 
-        TreeViews treeViews = new TreeViews();
-        treeViews.test_view();
+        // test path
+        TreePath treePath = new TreePath();
+        treePath.test_print_all_paths();
+
 
 
     }
