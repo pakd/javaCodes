@@ -38,10 +38,14 @@ public class Main {
 //        // test find lca
 //        LowestCommonAncestor lowestCommonAncestor = new LowestCommonAncestor();
 //        lowestCommonAncestor.test_find_lca();
+//
+//        // test morris traversals
+//        MorrisTraversals morrisTraversals = new MorrisTraversals();
+//        morrisTraversals.test();
 
-        // test morris traversals
-        MorrisTraversals morrisTraversals = new MorrisTraversals();
-        morrisTraversals.test();
+
+        ConstructTreeFromGivenTraversal constructTreeFromGivenTraversal = new ConstructTreeFromGivenTraversal();
+        constructTreeFromGivenTraversal.test();
 
 
 
