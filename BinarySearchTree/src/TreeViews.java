@@ -63,7 +63,6 @@ public class TreeViews {
 
         for( Integer x : map.keySet()) {
             System.out.print(x + " : ");
-            map.get()
             for( Integer y : map.get(x)) {
                 System.out.print( y + " ");
             }
