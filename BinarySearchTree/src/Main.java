@@ -20,10 +20,11 @@ public class Main {
 //        // test views, left, right, vertical
 //        TreeViews treeViews = new TreeViews();
 //        treeViews.test_view();
-
-        // test path
-        TreePath treePath = new TreePath();
-        treePath.test_print_all_paths();
+//
+//        // test path
+//        TreePath treePath = new TreePath();
+//        treePath.test_print_all_paths();
+//        treePath.test_reverse_path_to_node_x();
 
 
 
