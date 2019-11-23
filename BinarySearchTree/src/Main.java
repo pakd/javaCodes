@@ -42,11 +42,15 @@ public class Main {
 //        // test morris traversals
 //        MorrisTraversals morrisTraversals = new MorrisTraversals();
 //        morrisTraversals.test();
+//
+//
+//        // test construct tree from preorder and inorder
+//        ConstructTreeFromGivenTraversal constructTreeFromGivenTraversal = new ConstructTreeFromGivenTraversal();
+//        constructTreeFromGivenTraversal.test();
 
-
-        ConstructTreeFromGivenTraversal constructTreeFromGivenTraversal = new ConstructTreeFromGivenTraversal();
-        constructTreeFromGivenTraversal.test();
-
+        // test convert bst to dll
+        BSTtoDll bsttoDll = new BSTtoDll();
+        bsttoDll.test();
 
 
     }
