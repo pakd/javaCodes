@@ -1,0 +1,1 @@
+1. [check if given array can represet level order traversal of bst](https://www.geeksforgeeks.org/check-given-array-can-represent-level-order-traversal-binary-search-tree/)
