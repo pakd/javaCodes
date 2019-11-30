@@ -1,3 +1,5 @@
+import javax.lang.model.element.NestingKind;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -16,8 +18,13 @@ public class Main {
 //        // test delete middle element from stack using recursion
 //        DeleteMiddleElementRecursion deleteMiddleElementRecursion = new DeleteMiddleElementRecursion();
 //        deleteMiddleElementRecursion.test();
+//
+//        // test no of next continuous greater element
+//        NumberOfNGEsOnRight numberOfNGEsOnRight = new NumberOfNGEsOnRight();
+//        numberOfNGEsOnRight.test();
 
-        NumberOfNGEsOnRight numberOfNGEsOnRight = new NumberOfNGEsOnRight();
-        numberOfNGEsOnRight.test();
+        // test next greater frequency element
+        NextGreaterFrequencyElement nextGreaterFrequencyElement = new NextGreaterFrequencyElement();
+        nextGreaterFrequencyElement.test();
     }
 }
