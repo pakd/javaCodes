@@ -27,7 +27,10 @@ public class Main {
 //        NextGreaterFrequencyElement nextGreaterFrequencyElement = new NextGreaterFrequencyElement();
 //        nextGreaterFrequencyElement.test();
 
-        test_nstack();
+        // test_nstack();
+
+        DecodeAString decodeAString = new DecodeAString();
+        decodeAString.test();
 
     }
 
