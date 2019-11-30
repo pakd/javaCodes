@@ -22,9 +22,36 @@ public class Main {
 //        // test no of next continuous greater element
 //        NumberOfNGEsOnRight numberOfNGEsOnRight = new NumberOfNGEsOnRight();
 //        numberOfNGEsOnRight.test();
+//
+//        // test next greater frequency element
+//        NextGreaterFrequencyElement nextGreaterFrequencyElement = new NextGreaterFrequencyElement();
+//        nextGreaterFrequencyElement.test();
 
-        // test next greater frequency element
-        NextGreaterFrequencyElement nextGreaterFrequencyElement = new NextGreaterFrequencyElement();
-        nextGreaterFrequencyElement.test();
+        test_nstack();
+
     }
+
+    public static void test_nstack() {
+        Nstacks ks = new Nstacks(10, 3);
+
+        // Let us put some items in stack number 2
+        ks.push(2, 15);
+        ks.push(2, 45);
+
+        // Let us put some items in stack number 1
+        ks.push(1, 17);
+        ks.push(1, 49);
+        ks.push(1, 39);
+
+        // Let us put some items in stack number 0
+        ks.push(0, 11);
+        ks.push(0, 9);
+        ks.push(0, 7);
+
+        System.out.println(ks.pop(2));
+        System.out.println(ks.pop(1));
+        System.out.println(ks.pop(0));
+    }
+
+
 }
