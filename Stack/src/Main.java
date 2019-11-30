@@ -26,11 +26,16 @@ public class Main {
 //        // test next greater frequency element
 //        NextGreaterFrequencyElement nextGreaterFrequencyElement = new NextGreaterFrequencyElement();
 //        nextGreaterFrequencyElement.test();
+//
+//        // test n stacks in array
+//        test_nstack();
+//
+//        // test decode a string based on some format
+//        DecodeAString decodeAString = new DecodeAString();
+//        decodeAString.test();
 
-        // test_nstack();
-
-        DecodeAString decodeAString = new DecodeAString();
-        decodeAString.test();
+        LargestRectangularAreaInHistogram largestRectangularAreaInHistogram = new LargestRectangularAreaInHistogram();
+        largestRectangularAreaInHistogram.test();
 
     }
 
