@@ -3,6 +3,15 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
 
+
+/*
+Belady’s anomaly –
+Belady’s anomaly proves that it is possible to have more page faults when increasing the number of page frames
+while using the First in First Out (FIFO) page replacement algorithm. For example, if we consider reference
+string 3, 2, 1, 0, 3, 2, 4, 3, 2, 1, 0, 4 and 3 slots, we get 9 total page faults,
+but if we increase slots to 4, we get 10 page faults.
+*/
+
 public class FiFoCache {
 
     public int capacity;
