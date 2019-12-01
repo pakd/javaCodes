@@ -10,8 +10,12 @@ public class Main {
 //        testLRUCache();
 //
 //        testFiFoCache();
+//
+//        testNQueues();
 
-        testNQueues();
+        // test smallest multiple of 9 and 0
+        SmallestMultipleUsing9_0 smallestMultipleUsing9_0 = new SmallestMultipleUsing9_0();
+        smallestMultipleUsing9_0.test();
 
     }
 
