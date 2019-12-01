@@ -12,10 +12,13 @@ public class Main {
 //        testFiFoCache();
 //
 //        testNQueues();
+//
+//        // test smallest multiple of 9 and 0
+//        SmallestMultipleUsing9_0 smallestMultipleUsing9_0 = new SmallestMultipleUsing9_0();
+//        smallestMultipleUsing9_0.test();
 
-        // test smallest multiple of 9 and 0
-        SmallestMultipleUsing9_0 smallestMultipleUsing9_0 = new SmallestMultipleUsing9_0();
-        smallestMultipleUsing9_0.test();
+        RottenOranges rottenOranges = new RottenOranges();
+        rottenOranges.test();
 
     }
 
