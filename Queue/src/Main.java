@@ -8,8 +8,10 @@ public class Main {
 //        reverseAQueueUsingRecursion.test();
 //
 //        testLRUCache();
+//
+//        testFiFoCache();
 
-        testFiFoCache();
+        testNQueues();
 
     }
 
@@ -36,5 +38,31 @@ public class Main {
             fifoCache.refer(i);
         }
         System.out.println("Page Faults No: " + fifoCache.page_fault);
+    }
+
+    public static void testNQueues() {
+        int n = 10;
+        int k = 3;
+        NQueues ks = new NQueues(10, 3);
+
+
+        // Let us put some items in queue number 2
+        ks.enqueue(2, 15);
+        ks.enqueue(2, 45);
+
+        // Let us put some items in queue number 1
+        ks.enqueue(1, 17);
+        ks.enqueue(1, 49);
+        ks.enqueue(1, 39);
+
+        // Let us put some items in queue number 0
+        ks.enqueue(0, 11);
+        ks.enqueue(0, 9);
+        ks.enqueue(0, 7);
+
+        System.out.println(ks.deque(2));
+        System.out.println(ks.deque(1));
+        System.out.println(ks.deque(0));
+
     }
 }
