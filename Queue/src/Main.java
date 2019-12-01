@@ -20,9 +20,13 @@ public class Main {
 //        // test rotten oranges problem
 //        RottenOranges rottenOranges = new RottenOranges();
 //        rottenOranges.test();
+//
+//        // test circular petrol pump problem
+//        CircularPetrolPumpProblem circularPetrolPumpProblem = new CircularPetrolPumpProblem();
+//        circularPetrolPumpProblem.test();
 
-        CircularPetrolPumpProblem circularPetrolPumpProblem = new CircularPetrolPumpProblem();
-        circularPetrolPumpProblem.test();
+        SampleMaxPriorityQueue sampleMaxPriorityQueue = new SampleMaxPriorityQueue();
+        sampleMaxPriorityQueue.test();
 
     }
 

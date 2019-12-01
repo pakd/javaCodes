@@ -48,6 +48,5 @@ public class CircularPetrolPumpProblem {
             System.out.println("Start with petrol pump : " + ans);
         }
 
-
     }
 }
