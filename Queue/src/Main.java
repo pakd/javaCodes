@@ -16,9 +16,13 @@ public class Main {
 //        // test smallest multiple of 9 and 0
 //        SmallestMultipleUsing9_0 smallestMultipleUsing9_0 = new SmallestMultipleUsing9_0();
 //        smallestMultipleUsing9_0.test();
+//
+//        // test rotten oranges problem
+//        RottenOranges rottenOranges = new RottenOranges();
+//        rottenOranges.test();
 
-        RottenOranges rottenOranges = new RottenOranges();
-        rottenOranges.test();
+        CircularPetrolPumpProblem circularPetrolPumpProblem = new CircularPetrolPumpProblem();
+        circularPetrolPumpProblem.test();
 
     }
 
