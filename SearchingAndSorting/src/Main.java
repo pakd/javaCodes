@@ -14,9 +14,13 @@ public class Main {
 //        // test selection sort
 //        SelectionSort selectionSort = new SelectionSort();
 //        selectionSort.test();
+//
+//        // test insertion sort
+//        InsertionSort insertionSort = new InsertionSort();
+//        insertionSort.test();
 
-        // test insertion sort
-        InsertionSort insertionSort = new InsertionSort();
-        insertionSort.test();
+        // test merge sort
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.test();
     }
 }
