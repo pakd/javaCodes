@@ -22,8 +22,13 @@ public class Main {
 //        // test merge sort
 //        MergeSort mergeSort = new MergeSort();
 //        mergeSort.test();
+//
+//        // test quick sort
+//        QuickSort quickSort = new QuickSort();
+//        quickSort.test();
 
-        QuickSort quickSort = new QuickSort();
-        quickSort.test();
+        // test heap sort
+        HeapSort heapSort = new HeapSort();
+        heapSort.test();
     }
 }
