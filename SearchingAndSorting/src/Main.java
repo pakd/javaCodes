@@ -18,9 +18,12 @@ public class Main {
 //        // test insertion sort
 //        InsertionSort insertionSort = new InsertionSort();
 //        insertionSort.test();
+//
+//        // test merge sort
+//        MergeSort mergeSort = new MergeSort();
+//        mergeSort.test();
 
-        // test merge sort
-        MergeSort mergeSort = new MergeSort();
-        mergeSort.test();
+        QuickSort quickSort = new QuickSort();
+        quickSort.test();
     }
 }

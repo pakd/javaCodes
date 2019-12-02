@@ -50,14 +50,6 @@ public class MergeSort {
     }
 
 
-
-    public void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
-
-
     public void printArr(int[] arr) {
         for (int i : arr) {
             System.out.print(i + " ");
