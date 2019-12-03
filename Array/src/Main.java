@@ -9,8 +9,13 @@ public class Main {
 //        // test move zeroes to end
 //        MoveZeroesToEnd moveZeroesToEnd = new MoveZeroesToEnd();
 //        moveZeroesToEnd.test();
+//
+//        // test three way partitioning
+//        ThreeWayPartitioning threeWayPartitioning = new ThreeWayPartitioning();
+//        threeWayPartitioning.test();
 
-        ThreeWayPartitioning threeWayPartitioning = new ThreeWayPartitioning();
-        threeWayPartitioning.test();
+        // test maximum product subarray
+        MaximumProductSubArray maximumProductSubArray = new MaximumProductSubArray();
+        maximumProductSubArray.test();
     }
 }
