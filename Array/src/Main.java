@@ -5,9 +5,12 @@ public class Main {
 //        // test binary search in rotated and sorted array
 //        BSInRotatedNSortedArray bsInRotatedNSortedArray = new BSInRotatedNSortedArray();
 //        bsInRotatedNSortedArray.test();
+//
+//        // test move zeroes to end
+//        MoveZeroesToEnd moveZeroesToEnd = new MoveZeroesToEnd();
+//        moveZeroesToEnd.test();
 
-        // test move zeroes to end
-        MoveZeroesToEnd moveZeroesToEnd = new MoveZeroesToEnd();
-        moveZeroesToEnd.test();
+        ThreeWayPartitioning threeWayPartitioning = new ThreeWayPartitioning();
+        threeWayPartitioning.test();
     }
 }
