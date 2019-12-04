@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-
+//
 //        // test binary search in rotated and sorted array
 //        BSInRotatedNSortedArray bsInRotatedNSortedArray = new BSInRotatedNSortedArray();
 //        bsInRotatedNSortedArray.test();
@@ -13,9 +13,12 @@ public class Main {
 //        // test three way partitioning
 //        ThreeWayPartitioning threeWayPartitioning = new ThreeWayPartitioning();
 //        threeWayPartitioning.test();
+//
+//        // test maximum product subarray
+//        MaximumProductSubArray maximumProductSubArray = new MaximumProductSubArray();
+//        maximumProductSubArray.test();
 
-        // test maximum product subarray
-        MaximumProductSubArray maximumProductSubArray = new MaximumProductSubArray();
-        maximumProductSubArray.test();
+        MinimumOperationToMakePalindrome minimumOperationToMakePalindrome = new MinimumOperationToMakePalindrome();
+        minimumOperationToMakePalindrome.test();
     }
 }
