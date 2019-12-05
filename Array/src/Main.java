@@ -21,10 +21,13 @@ public class Main {
 //        // test minimum operations to make palindrome
 //        MinimumOperationToMakePalindrome minimumOperationToMakePalindrome = new MinimumOperationToMakePalindrome();
 //        minimumOperationToMakePalindrome.test();
+//
+//        // test longest span
+//        LongestSpanSumTwoBinaryArray longestSpanSumTwoBinaryArray = new LongestSpanSumTwoBinaryArray();
+//        longestSpanSumTwoBinaryArray.test();
 
-        // test longest span
-        LongestSpanSumTwoBinaryArray longestSpanSumTwoBinaryArray = new LongestSpanSumTwoBinaryArray();
-        longestSpanSumTwoBinaryArray.test();
+        GenerateAllPermutations generateAllPermutations = new GenerateAllPermutations();
+        generateAllPermutations.test();
 
 
     }
