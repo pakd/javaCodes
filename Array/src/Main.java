@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-//
+
 //        // test binary search in rotated and sorted array
 //        BSInRotatedNSortedArray bsInRotatedNSortedArray = new BSInRotatedNSortedArray();
 //        bsInRotatedNSortedArray.test();
@@ -17,8 +17,15 @@ public class Main {
 //        // test maximum product subarray
 //        MaximumProductSubArray maximumProductSubArray = new MaximumProductSubArray();
 //        maximumProductSubArray.test();
+//
+//        // test minimum operations to make palindrome
+//        MinimumOperationToMakePalindrome minimumOperationToMakePalindrome = new MinimumOperationToMakePalindrome();
+//        minimumOperationToMakePalindrome.test();
 
-        MinimumOperationToMakePalindrome minimumOperationToMakePalindrome = new MinimumOperationToMakePalindrome();
-        minimumOperationToMakePalindrome.test();
+        // test longest span
+        LongestSpanSumTwoBinaryArray longestSpanSumTwoBinaryArray = new LongestSpanSumTwoBinaryArray();
+        longestSpanSumTwoBinaryArray.test();
+
+
     }
 }
