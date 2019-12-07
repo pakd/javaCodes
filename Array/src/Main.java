@@ -1,3 +1,4 @@
+import Sorting.DearrangementForMinimumSumProductOfTwoArrays;
 import Sorting.MedianOfStream;
 import Sorting.MinimumSwapsForSortedArray;
 
@@ -37,10 +38,13 @@ public class Main {
 //        // test median in streams of integer
 //        MedianOfStream medianOfStream = new MedianOfStream();
 //        medianOfStream.test();
+//
+//        // test find minimum no of swaps to sort an array
+//        MinimumSwapsForSortedArray minimumSwapsForSortedArray = new MinimumSwapsForSortedArray();
+//        minimumSwapsForSortedArray.test();
 
-        // test find minimum no of swaps to sort an array
-        MinimumSwapsForSortedArray minimumSwapsForSortedArray = new MinimumSwapsForSortedArray();
-        minimumSwapsForSortedArray.test();
+        DearrangementForMinimumSumProductOfTwoArrays obj = new DearrangementForMinimumSumProductOfTwoArrays();
+        obj.test();
 
 
     }
