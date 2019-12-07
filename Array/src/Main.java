@@ -1,3 +1,6 @@
+import Sorting.MedianOfStream;
+
+
 public class Main {
 
     public static void main(String[] args) {
@@ -25,9 +28,13 @@ public class Main {
 //        // test longest span
 //        LongestSpanSumTwoBinaryArray longestSpanSumTwoBinaryArray = new LongestSpanSumTwoBinaryArray();
 //        longestSpanSumTwoBinaryArray.test();
+//
+//        // test generate all permutations and subarrays of an array
+//        GenerateAllPermutations generateAllPermutations = new GenerateAllPermutations();
+//        generateAllPermutations.test();
 
-        GenerateAllPermutations generateAllPermutations = new GenerateAllPermutations();
-        generateAllPermutations.test();
+        MedianOfStream medianOfStream = new MedianOfStream();
+        medianOfStream.test();
 
 
     }
