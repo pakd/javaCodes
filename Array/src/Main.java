@@ -1,6 +1,7 @@
 import Sorting.DearrangementForMinimumSumProductOfTwoArrays;
 import Sorting.MedianOfStream;
 import Sorting.MinimumSwapsForSortedArray;
+import Sorting.SortArrayByFrequencyMaintainingOrder;
 
 
 public class Main {
@@ -42,10 +43,14 @@ public class Main {
 //        // test find minimum no of swaps to sort an array
 //        MinimumSwapsForSortedArray minimumSwapsForSortedArray = new MinimumSwapsForSortedArray();
 //        minimumSwapsForSortedArray.test();
+//
+//        // test minimum no of dearrangements for minimum sum product of two arrays
+//        DearrangementForMinimumSumProductOfTwoArrays obj = new DearrangementForMinimumSumProductOfTwoArrays();
+//        obj.test();
 
-        DearrangementForMinimumSumProductOfTwoArrays obj = new DearrangementForMinimumSumProductOfTwoArrays();
-        obj.test();
-
+        // test sort by frequency maintaining order
+        SortArrayByFrequencyMaintainingOrder sortArrayByFrequencyMaintainingOrder = new SortArrayByFrequencyMaintainingOrder();
+        sortArrayByFrequencyMaintainingOrder.test();
 
     }
 }
