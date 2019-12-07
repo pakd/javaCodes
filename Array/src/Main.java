@@ -1,4 +1,5 @@
 import Sorting.MedianOfStream;
+import Sorting.MinimumSwapsForSortedArray;
 
 
 public class Main {
@@ -32,9 +33,14 @@ public class Main {
 //        // test generate all permutations and subarrays of an array
 //        GenerateAllPermutations generateAllPermutations = new GenerateAllPermutations();
 //        generateAllPermutations.test();
+//
+//        // test median in streams of integer
+//        MedianOfStream medianOfStream = new MedianOfStream();
+//        medianOfStream.test();
 
-        MedianOfStream medianOfStream = new MedianOfStream();
-        medianOfStream.test();
+        // test find minimum no of swaps to sort an array
+        MinimumSwapsForSortedArray minimumSwapsForSortedArray = new MinimumSwapsForSortedArray();
+        minimumSwapsForSortedArray.test();
 
 
     }
