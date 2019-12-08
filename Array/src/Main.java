@@ -70,9 +70,13 @@ public class Main {
 //        KMaximumSumCombinations kMaximumSumCombinations = new KMaximumSumCombinations();
 //        kMaximumSumCombinations.test();
 
-        // test k maximum sum sub arrays non overlapping
-        KMaximumSumSubArrayNonOverlapping kMaximumSumSubArrayNonOverlapping = new KMaximumSumSubArrayNonOverlapping();
-        kMaximumSumSubArrayNonOverlapping.test();
+//        // test k maximum sum sub arrays non overlapping
+//        KMaximumSumSubArrayNonOverlapping kMaximumSumSubArrayNonOverlapping = new KMaximumSumSubArrayNonOverlapping();
+//        kMaximumSumSubArrayNonOverlapping.test();
+
+        // test quick select algorithm
+        QuickSelect quickSelect = new QuickSelect();
+        quickSelect.test();
 
 
 
