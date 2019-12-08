@@ -1,7 +1,4 @@
-import OrderStatistics.KMaximumSumCombinations;
-import OrderStatistics.KSmallestInSameOrder;
-import OrderStatistics.MaximumSumNoAdjacentAllowed;
-import OrderStatistics.MinMaxTournament;
+import OrderStatistics.*;
 import Sorting.DearrangementForMinimumSumProductOfTwoArrays;
 import Sorting.MedianOfStream;
 import Sorting.MinimumSwapsForSortedArray;
@@ -69,8 +66,15 @@ public class Main {
 //        kSmallestInSameOrder.test();
 
 
-        KMaximumSumCombinations kMaximumSumCombinations = new KMaximumSumCombinations();
-        kMaximumSumCombinations.test();
+//        // k maximum sum combinations from two arrays
+//        KMaximumSumCombinations kMaximumSumCombinations = new KMaximumSumCombinations();
+//        kMaximumSumCombinations.test();
+
+        // test k maximum sum sub arrays non overlapping
+        KMaximumSumSubArrayNonOverlapping kMaximumSumSubArrayNonOverlapping = new KMaximumSumSubArrayNonOverlapping();
+        kMaximumSumSubArrayNonOverlapping.test();
+
+
 
 
 
