@@ -1,3 +1,4 @@
+import OrderStatistics.MaximumSumNoAdjacentAllowed;
 import OrderStatistics.MinMaxTournament;
 import Sorting.DearrangementForMinimumSumProductOfTwoArrays;
 import Sorting.MedianOfStream;
@@ -53,8 +54,13 @@ public class Main {
 //        SortArrayByFrequencyMaintainingOrder sortArrayByFrequencyMaintainingOrder = new SortArrayByFrequencyMaintainingOrder();
 //        sortArrayByFrequencyMaintainingOrder.test();
 
-        MinMaxTournament minMaxTournament = new MinMaxTournament();
-        minMaxTournament.test();
+//        MinMaxTournament minMaxTournament = new MinMaxTournament();
+//        minMaxTournament.test();
+
+        MaximumSumNoAdjacentAllowed maximumSumNoAdjacentAllowed = new MaximumSumNoAdjacentAllowed();
+        maximumSumNoAdjacentAllowed.test();
+
+
 
     }
 }
