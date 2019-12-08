@@ -1,3 +1,4 @@
+import OrderStatistics.KSmallestInSameOrder;
 import OrderStatistics.MaximumSumNoAdjacentAllowed;
 import OrderStatistics.MinMaxTournament;
 import Sorting.DearrangementForMinimumSumProductOfTwoArrays;
@@ -54,11 +55,17 @@ public class Main {
 //        SortArrayByFrequencyMaintainingOrder sortArrayByFrequencyMaintainingOrder = new SortArrayByFrequencyMaintainingOrder();
 //        sortArrayByFrequencyMaintainingOrder.test();
 
+//        // test find min and max in an array using tournament method
 //        MinMaxTournament minMaxTournament = new MinMaxTournament();
 //        minMaxTournament.test();
 
-        MaximumSumNoAdjacentAllowed maximumSumNoAdjacentAllowed = new MaximumSumNoAdjacentAllowed();
-        maximumSumNoAdjacentAllowed.test();
+//        // test maximum sum with no adjacent allowed
+//        MaximumSumNoAdjacentAllowed maximumSumNoAdjacentAllowed = new MaximumSumNoAdjacentAllowed();
+//        maximumSumNoAdjacentAllowed.test();
+
+        // test k smallest with maintained order
+        KSmallestInSameOrder kSmallestInSameOrder = new KSmallestInSameOrder();
+        kSmallestInSameOrder.test();
 
 
 
