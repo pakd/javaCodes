@@ -1,4 +1,5 @@
 import OrderStatistics.*;
+import RangeQuery.PrefixSumQuery;
 import Sorting.DearrangementForMinimumSumProductOfTwoArrays;
 import Sorting.MedianOfStream;
 import Sorting.MinimumSwapsForSortedArray;
@@ -74,9 +75,13 @@ public class Main {
 //        KMaximumSumSubArrayNonOverlapping kMaximumSumSubArrayNonOverlapping = new KMaximumSumSubArrayNonOverlapping();
 //        kMaximumSumSubArrayNonOverlapping.test();
 
-        // test quick select algorithm
-        QuickSelect quickSelect = new QuickSelect();
-        quickSelect.test();
+//        // test quick select algorithm
+//        QuickSelect quickSelect = new QuickSelect();
+//        quickSelect.test();
+
+        // test prefix sum array query
+        PrefixSumQuery prefixSumQuery = new PrefixSumQuery();
+        prefixSumQuery.test();
 
 
 
