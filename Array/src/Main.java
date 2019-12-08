@@ -1,5 +1,6 @@
 import OrderStatistics.*;
 import RangeQuery.PrefixSumQuery;
+import RangeQuery.SegmentTree;
 import Sorting.DearrangementForMinimumSumProductOfTwoArrays;
 import Sorting.MedianOfStream;
 import Sorting.MinimumSwapsForSortedArray;
@@ -78,10 +79,14 @@ public class Main {
 //        // test quick select algorithm
 //        QuickSelect quickSelect = new QuickSelect();
 //        quickSelect.test();
+//
+//        // test prefix sum array query
+//        PrefixSumQuery prefixSumQuery = new PrefixSumQuery();
+//        prefixSumQuery.test();
 
-        // test prefix sum array query
-        PrefixSumQuery prefixSumQuery = new PrefixSumQuery();
-        prefixSumQuery.test();
+        // test segment tree
+        SegmentTree segmentTree = new SegmentTree();
+        segmentTree.test();
 
 
 
