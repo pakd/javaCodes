@@ -1,3 +1,4 @@
+import OrderStatistics.KMaximumSumCombinations;
 import OrderStatistics.KSmallestInSameOrder;
 import OrderStatistics.MaximumSumNoAdjacentAllowed;
 import OrderStatistics.MinMaxTournament;
@@ -63,9 +64,13 @@ public class Main {
 //        MaximumSumNoAdjacentAllowed maximumSumNoAdjacentAllowed = new MaximumSumNoAdjacentAllowed();
 //        maximumSumNoAdjacentAllowed.test();
 
-        // test k smallest with maintained order
-        KSmallestInSameOrder kSmallestInSameOrder = new KSmallestInSameOrder();
-        kSmallestInSameOrder.test();
+//        // test k smallest with maintained order
+//        KSmallestInSameOrder kSmallestInSameOrder = new KSmallestInSameOrder();
+//        kSmallestInSameOrder.test();
+
+
+        KMaximumSumCombinations kMaximumSumCombinations = new KMaximumSumCombinations();
+        kMaximumSumCombinations.test();
 
 
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22ccd003-713e-4577-9d0c-269ed14836c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OrderStatistics/KSmallestInSameOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderStatistics/KMaximumSumCombinations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BinarySearchTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/.idea/workspace.xml" afterDir="false" />
@@ -28,63 +28,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+            <state relative-caret-position="433">
+              <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1575798779656" expanded="true" signature="397:893" ph="..." />
-                <marker date="1575798779656" expanded="true" signature="397:1483" ph="..." />
+                <marker date="1575806077079" expanded="true" signature="445:941" ph="..." />
+                <marker date="1575806077079" expanded="true" signature="445:1531" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OrderStatistics/MaximumSumNoAdjacentAllowed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/OrderStatistics/KSmallestInSameOrder.java">
+        <entry file="file://$PROJECT_DIR$/src/OrderStatistics/KMaximumSumCombinations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sorting/SortArrayByFrequencyMaintainingOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+            <state relative-caret-position="434">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OrderStatistics/MinMaxTournament.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sorting/MedianOfStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,12 +82,13 @@
         <option value="$PROJECT_DIR$/src/Sorting/SortArrayByFrequencyMaintainingOrder.java" />
         <option value="$PROJECT_DIR$/src/OrderStatistics/MinMaxTournament.java" />
         <option value="$PROJECT_DIR$/src/OrderStatistics/MaximumSumNoAdjacentAllowed.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/OrderStatistics/KSmallestInSameOrder.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/OrderStatistics/KMaximumSumCombinations.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -213,18 +178,18 @@
       <workItem from="1575479856796" duration="730000" />
       <workItem from="1575566650909" duration="2632000" />
       <workItem from="1575726175929" duration="8705000" />
-      <workItem from="1575790766129" duration="2992000" />
+      <workItem from="1575790766129" duration="5110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18186000" />
+    <option name="totallyTimeSpent" value="20304000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21006565" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.102345414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -233,7 +198,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36105034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3575298" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,10 +295,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorting/MedianOfStream.java">
+    <entry file="file://$PROJECT_DIR$/src/OrderStatistics/KSmallestInSameOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+        <state relative-caret-position="352">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OrderStatistics/MaximumSumNoAdjacentAllowed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1575806077079" expanded="true" signature="445:941" ph="..." />
+            <marker date="1575806077079" expanded="true" signature="445:1531" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorting/SortArrayByFrequencyMaintainingOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -347,39 +338,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorting/SortArrayByFrequencyMaintainingOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/Sorting/MedianOfStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+        <state relative-caret-position="521">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrderStatistics/MaximumSumNoAdjacentAllowed.java">
+    <entry file="file://$PROJECT_DIR$/src/OrderStatistics/KMaximumSumCombinations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+        <state relative-caret-position="434">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1575798779656" expanded="true" signature="397:893" ph="..." />
-            <marker date="1575798779656" expanded="true" signature="397:1483" ph="..." />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrderStatistics/KSmallestInSameOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
