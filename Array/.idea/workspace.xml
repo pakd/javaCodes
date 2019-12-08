@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22ccd003-713e-4577-9d0c-269ed14836c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/OrderStatistics/MinMaxTournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BinarySearchTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Matrix/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix/.idea/workspace.xml" afterDir="false" />
@@ -22,28 +25,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+            <state relative-caret-position="397">
+              <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1575741189556" expanded="true" signature="259:755" ph="..." />
-                <marker date="1575741189556" expanded="true" signature="259:1345" ph="..." />
+                <marker date="1575791384666" expanded="true" signature="300:796" ph="..." />
+                <marker date="1575791384666" expanded="true" signature="300:1386" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sorting/SortArrayByFrequencyMaintainingOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="354">
-              <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+              <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OrderStatistics/MinMaxTournament.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -51,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sorting/MedianOfStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1345">
-              <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+            <state relative-caret-position="1386">
+              <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,16 +97,16 @@
         <option value="$PROJECT_DIR$/src/Sorting/MedianOfStream.java" />
         <option value="$PROJECT_DIR$/src/Sorting/MinimumSwapsForSortedArray.java" />
         <option value="$PROJECT_DIR$/src/Sorting/DearrangementForMinimumSumProductOfTwoArrays.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Sorting/SortArrayByFrequencyMaintainingOrder.java" />
+        <option value="$PROJECT_DIR$/src/OrderStatistics/MinMaxTournament.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -103,6 +115,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,13 +132,18 @@
               <item name="Array" type="b2602c69:ProjectViewProjectNode" />
               <item name="Array" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="OrderStatistics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Array" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Sorting" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,17 +192,19 @@
       <workItem from="1575396145498" duration="3127000" />
       <workItem from="1575479856796" duration="730000" />
       <workItem from="1575566650909" duration="2632000" />
-      <workItem from="1575726175929" duration="8643000" />
+      <workItem from="1575726175929" duration="8705000" />
+      <workItem from="1575790766129" duration="619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15132000" />
+    <option name="totallyTimeSpent" value="15813000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="976" height="1056" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20524018" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21006565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -193,7 +213,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3618635" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36105034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -201,7 +221,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3261105" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32932165" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -292,22 +312,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorting/MedianOfStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1345">
-          <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+        <state relative-caret-position="1386">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1575741189556" expanded="true" signature="259:755" ph="..." />
-            <marker date="1575741189556" expanded="true" signature="259:1345" ph="..." />
           </folding>
         </state>
       </provider>
@@ -315,9 +323,28 @@
     <entry file="file://$PROJECT_DIR$/src/Sorting/SortArrayByFrequencyMaintainingOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
-          <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OrderStatistics/MinMaxTournament.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1575791384666" expanded="true" signature="300:796" ph="..." />
+            <marker date="1575791384666" expanded="true" signature="300:1386" ph="..." />
           </folding>
         </state>
       </provider>

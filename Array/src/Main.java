@@ -1,3 +1,4 @@
+import OrderStatistics.MinMaxTournament;
 import Sorting.DearrangementForMinimumSumProductOfTwoArrays;
 import Sorting.MedianOfStream;
 import Sorting.MinimumSwapsForSortedArray;
@@ -47,10 +48,13 @@ public class Main {
 //        // test minimum no of dearrangements for minimum sum product of two arrays
 //        DearrangementForMinimumSumProductOfTwoArrays obj = new DearrangementForMinimumSumProductOfTwoArrays();
 //        obj.test();
+//
+//        // test sort by frequency maintaining order
+//        SortArrayByFrequencyMaintainingOrder sortArrayByFrequencyMaintainingOrder = new SortArrayByFrequencyMaintainingOrder();
+//        sortArrayByFrequencyMaintainingOrder.test();
 
-        // test sort by frequency maintaining order
-        SortArrayByFrequencyMaintainingOrder sortArrayByFrequencyMaintainingOrder = new SortArrayByFrequencyMaintainingOrder();
-        sortArrayByFrequencyMaintainingOrder.test();
+        MinMaxTournament minMaxTournament = new MinMaxTournament();
+        minMaxTournament.test();
 
     }
 }
