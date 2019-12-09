@@ -1,6 +1,7 @@
 import OrderStatistics.*;
 import RangeQuery.PrefixSumQuery;
 import RangeQuery.SegmentTree;
+import Searching.CountFrequencyUsingIndex;
 import Sorting.DearrangementForMinimumSumProductOfTwoArrays;
 import Sorting.MedianOfStream;
 import Sorting.MinimumSwapsForSortedArray;
@@ -84,9 +85,13 @@ public class Main {
 //        PrefixSumQuery prefixSumQuery = new PrefixSumQuery();
 //        prefixSumQuery.test();
 
-        // test segment tree
-        SegmentTree segmentTree = new SegmentTree();
-        segmentTree.test();
+//        // test segment tree
+//        SegmentTree segmentTree = new SegmentTree();
+//        segmentTree.test();
+
+        // test count frequency using index
+        CountFrequencyUsingIndex countFrequencyUsingIndex = new CountFrequencyUsingIndex();
+        countFrequencyUsingIndex.test();
 
 
 
