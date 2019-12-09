@@ -2,6 +2,7 @@ import OrderStatistics.*;
 import RangeQuery.PrefixSumQuery;
 import RangeQuery.SegmentTree;
 import Searching.CountFrequencyUsingIndex;
+import Searching.DuplicateElementWithinKDistance;
 import Sorting.DearrangementForMinimumSumProductOfTwoArrays;
 import Sorting.MedianOfStream;
 import Sorting.MinimumSwapsForSortedArray;
@@ -89,9 +90,13 @@ public class Main {
 //        SegmentTree segmentTree = new SegmentTree();
 //        segmentTree.test();
 
-        // test count frequency using index
-        CountFrequencyUsingIndex countFrequencyUsingIndex = new CountFrequencyUsingIndex();
-        countFrequencyUsingIndex.test();
+//        // test count frequency using index
+//        CountFrequencyUsingIndex countFrequencyUsingIndex = new CountFrequencyUsingIndex();
+//        countFrequencyUsingIndex.test();
+
+        // test duplicate element within k distance
+        DuplicateElementWithinKDistance duplicateElementWithinKDistance = new DuplicateElementWithinKDistance();
+        duplicateElementWithinKDistance.test();
 
 
 
