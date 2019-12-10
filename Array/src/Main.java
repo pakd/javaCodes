@@ -1,10 +1,7 @@
 import OrderStatistics.*;
 import RangeQuery.PrefixSumQuery;
 import RangeQuery.SegmentTree;
-import Searching.CountFrequencyUsingIndex;
-import Searching.DuplicateElementWithinKDistance;
-import Searching.MedianOfTwoSortedArray;
-import Searching.PeakElement;
+import Searching.*;
 import Sorting.DearrangementForMinimumSumProductOfTwoArrays;
 import Sorting.MedianOfStream;
 import Sorting.MinimumSwapsForSortedArray;
@@ -104,9 +101,13 @@ public class Main {
 //        MedianOfTwoSortedArray medianOfTwoSortedArray = new MedianOfTwoSortedArray();
 //        medianOfTwoSortedArray.test();
 
-        // test find peak element
-        PeakElement peakElement = new PeakElement();
-        peakElement.test();
+//        // test find peak element
+//        PeakElement peakElement = new PeakElement();
+//        peakElement.test();
+
+        // test ceiling in sorted array
+        CeilingInSortedArray ceilingInSortedArray = new CeilingInSortedArray();
+        ceilingInSortedArray.test();
 
 
 
