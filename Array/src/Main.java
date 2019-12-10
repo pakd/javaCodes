@@ -4,6 +4,7 @@ import RangeQuery.SegmentTree;
 import Searching.CountFrequencyUsingIndex;
 import Searching.DuplicateElementWithinKDistance;
 import Searching.MedianOfTwoSortedArray;
+import Searching.PeakElement;
 import Sorting.DearrangementForMinimumSumProductOfTwoArrays;
 import Sorting.MedianOfStream;
 import Sorting.MinimumSwapsForSortedArray;
@@ -99,9 +100,13 @@ public class Main {
 //        DuplicateElementWithinKDistance duplicateElementWithinKDistance = new DuplicateElementWithinKDistance();
 //        duplicateElementWithinKDistance.test();
 
-        // test median of two sorted array
-        MedianOfTwoSortedArray medianOfTwoSortedArray = new MedianOfTwoSortedArray();
-        medianOfTwoSortedArray.test();
+//        // test median of two sorted array
+//        MedianOfTwoSortedArray medianOfTwoSortedArray = new MedianOfTwoSortedArray();
+//        medianOfTwoSortedArray.test();
+
+        // test find peak element
+        PeakElement peakElement = new PeakElement();
+        peakElement.test();
 
 
 
