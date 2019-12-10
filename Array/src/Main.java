@@ -3,6 +3,7 @@ import RangeQuery.PrefixSumQuery;
 import RangeQuery.SegmentTree;
 import Searching.CountFrequencyUsingIndex;
 import Searching.DuplicateElementWithinKDistance;
+import Searching.MedianOfTwoSortedArray;
 import Sorting.DearrangementForMinimumSumProductOfTwoArrays;
 import Sorting.MedianOfStream;
 import Sorting.MinimumSwapsForSortedArray;
@@ -94,10 +95,13 @@ public class Main {
 //        CountFrequencyUsingIndex countFrequencyUsingIndex = new CountFrequencyUsingIndex();
 //        countFrequencyUsingIndex.test();
 
-        // test duplicate element within k distance
-        DuplicateElementWithinKDistance duplicateElementWithinKDistance = new DuplicateElementWithinKDistance();
-        duplicateElementWithinKDistance.test();
+//        // test duplicate element within k distance
+//        DuplicateElementWithinKDistance duplicateElementWithinKDistance = new DuplicateElementWithinKDistance();
+//        duplicateElementWithinKDistance.test();
 
+        // test median of two sorted array
+        MedianOfTwoSortedArray medianOfTwoSortedArray = new MedianOfTwoSortedArray();
+        medianOfTwoSortedArray.test();
 
 
 
