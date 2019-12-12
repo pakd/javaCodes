@@ -11,8 +11,12 @@ public class Main {
 //        ShareAtmostK shareAtmostK = new ShareAtmostK();
 //        shareAtmostK.test();
 
-        // test word break problem
-        WordBreakProblem wordBreakProblem = new WordBreakProblem();
-        wordBreakProblem.test();
+//        // test word break problem
+//        WordBreakProblem wordBreakProblem = new WordBreakProblem();
+//        wordBreakProblem.test();
+
+        // test box stacking problem
+        BoxStackingProblem boxStackingProblem = new BoxStackingProblem();
+        boxStackingProblem.test();
     }
 }
