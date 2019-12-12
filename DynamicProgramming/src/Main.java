@@ -7,8 +7,12 @@ public class Main {
 //        MinimumEditDistance minimumEditDistance = new MinimumEditDistance();
 //        minimumEditDistance.test();
 
-        // test share profit with k transactions
-        ShareAtmostK shareAtmostK = new ShareAtmostK();
-        shareAtmostK.test();
+//        // test share profit with k transactions
+//        ShareAtmostK shareAtmostK = new ShareAtmostK();
+//        shareAtmostK.test();
+
+        // test word break problem
+        WordBreakProblem wordBreakProblem = new WordBreakProblem();
+        wordBreakProblem.test();
     }
 }
