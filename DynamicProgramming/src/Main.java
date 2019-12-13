@@ -15,8 +15,12 @@ public class Main {
 //        WordBreakProblem wordBreakProblem = new WordBreakProblem();
 //        wordBreakProblem.test();
 
-        // test box stacking problem
-        BoxStackingProblem boxStackingProblem = new BoxStackingProblem();
-        boxStackingProblem.test();
+//        // test box stacking problem
+//        BoxStackingProblem boxStackingProblem = new BoxStackingProblem();
+//        boxStackingProblem.test();
+
+        // test egg dropping puzzle
+        EggDroppingPuzzle eggDroppingPuzzle = new EggDroppingPuzzle();
+        eggDroppingPuzzle.test();
     }
 }
