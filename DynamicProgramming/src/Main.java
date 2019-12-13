@@ -23,9 +23,13 @@ public class Main {
 //        EggDroppingPuzzle eggDroppingPuzzle = new EggDroppingPuzzle();
 //        eggDroppingPuzzle.test();
 
-        // test optimal strategy for a game
-        OptimalStrategyForAGame optimalStrategyForAGame = new OptimalStrategyForAGame();
-        optimalStrategyForAGame.test();
+//        // test optimal strategy for a game
+//        OptimalStrategyForAGame optimalStrategyForAGame = new OptimalStrategyForAGame();
+//        optimalStrategyForAGame.test();
+
+        // test count possible no of decodings for a digit sequence
+        CountPossibleDecodingOfDigitSequence countPossibleDecodingOfDigitSequence = new CountPossibleDecodingOfDigitSequence();
+        countPossibleDecodingOfDigitSequence.test();
 
 
 
