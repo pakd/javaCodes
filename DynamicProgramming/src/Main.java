@@ -19,8 +19,15 @@ public class Main {
 //        BoxStackingProblem boxStackingProblem = new BoxStackingProblem();
 //        boxStackingProblem.test();
 
-        // test egg dropping puzzle
-        EggDroppingPuzzle eggDroppingPuzzle = new EggDroppingPuzzle();
-        eggDroppingPuzzle.test();
+//        // test egg dropping puzzle
+//        EggDroppingPuzzle eggDroppingPuzzle = new EggDroppingPuzzle();
+//        eggDroppingPuzzle.test();
+
+        // test optimal strategy for a game
+        OptimalStrategyForAGame optimalStrategyForAGame = new OptimalStrategyForAGame();
+        optimalStrategyForAGame.test();
+
+
+
     }
 }
