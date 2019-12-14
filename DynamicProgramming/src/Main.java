@@ -31,9 +31,13 @@ public class Main {
 //        CountPossibleDecodingOfDigitSequence countPossibleDecodingOfDigitSequence = new CountPossibleDecodingOfDigitSequence();
 //        countPossibleDecodingOfDigitSequence.test();
 
-        // test regular expression match
-        RegularExpressionMatch regularExpressionMatch = new RegularExpressionMatch();
-        regularExpressionMatch.test();
+//        // test regular expression match
+//        RegularExpressionMatch regularExpressionMatch = new RegularExpressionMatch();
+//        regularExpressionMatch.test();
+
+        // test matrix chain multiplication
+        MatrixChainMultiplication matrixChainMultiplication = new MatrixChainMultiplication();
+        matrixChainMultiplication.test();
 
 
 
