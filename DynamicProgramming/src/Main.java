@@ -27,9 +27,13 @@ public class Main {
 //        OptimalStrategyForAGame optimalStrategyForAGame = new OptimalStrategyForAGame();
 //        optimalStrategyForAGame.test();
 
-        // test count possible no of decodings for a digit sequence
-        CountPossibleDecodingOfDigitSequence countPossibleDecodingOfDigitSequence = new CountPossibleDecodingOfDigitSequence();
-        countPossibleDecodingOfDigitSequence.test();
+//        // test count possible no of decodings for a digit sequence
+//        CountPossibleDecodingOfDigitSequence countPossibleDecodingOfDigitSequence = new CountPossibleDecodingOfDigitSequence();
+//        countPossibleDecodingOfDigitSequence.test();
+
+        // test regular expression match
+        RegularExpressionMatch regularExpressionMatch = new RegularExpressionMatch();
+        regularExpressionMatch.test();
 
 
 
