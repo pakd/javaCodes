@@ -35,9 +35,13 @@ public class Main {
 //        RegularExpressionMatch regularExpressionMatch = new RegularExpressionMatch();
 //        regularExpressionMatch.test();
 
-        // test matrix chain multiplication
-        MatrixChainMultiplication matrixChainMultiplication = new MatrixChainMultiplication();
-        matrixChainMultiplication.test();
+//        // test matrix chain multiplication
+//        MatrixChainMultiplication matrixChainMultiplication = new MatrixChainMultiplication();
+//        matrixChainMultiplication.test();
+
+        // test longest path in a matrix
+        LongestIncreasingPathInMatrix longestIncreasingPathInMatrix = new LongestIncreasingPathInMatrix();
+        longestIncreasingPathInMatrix.test();
 
 
 
