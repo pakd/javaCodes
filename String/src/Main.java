@@ -15,8 +15,12 @@ public class Main {
 //        PalindromicPartitioning palindromicPartitioning = new PalindromicPartitioning();
 //        palindromicPartitioning.test();
 
-        // test rabin karp search
-        RabinKarpSearch rabinKarpSearch = new RabinKarpSearch();
-        rabinKarpSearch.test();
+//        // test rabin karp search
+//        RabinKarpSearch rabinKarpSearch = new RabinKarpSearch();
+//        rabinKarpSearch.test();
+
+        // test knuth morris pratt search
+        KnuthMorrisPratt knuthMorrisPratt = new KnuthMorrisPratt();
+        knuthMorrisPratt.test();
     }
 }
