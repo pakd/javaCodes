@@ -15,9 +15,9 @@ public class Main {
 //        SelectionSort selectionSort = new SelectionSort();
 //        selectionSort.test();
 //
-//        // test insertion sort
-//        InsertionSort insertionSort = new InsertionSort();
-//        insertionSort.test();
+        // test insertion sort
+        InsertionSort insertionSort = new InsertionSort();
+        insertionSort.test();
 //
 //        // test merge sort
 //        MergeSort mergeSort = new MergeSort();
@@ -27,8 +27,8 @@ public class Main {
 //        QuickSort quickSort = new QuickSort();
 //        quickSort.test();
 
-        // test heap sort
-        HeapSort heapSort = new HeapSort();
-        heapSort.test();
+//        // test heap sort
+//        HeapSort heapSort = new HeapSort();
+//        heapSort.test();
     }
 }

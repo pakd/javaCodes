@@ -4,11 +4,13 @@ public class InsertionSort {
         int n = arr.length;
 
         for(int i=1; i<n; i++) {
-            int j = i;
-            while(j > 0 && arr[j] < arr[j-1]) {
-                swap(arr, j, j-1);
+            int j = i-1;
+            int key = arr[i];
+            while(j >= 0 && arr[j] > key) {
+                arr[j+1] = arr[j];
                 j--;
             }
+            arr[j+1] = key;
         }
     }
 
@@ -27,7 +29,7 @@ public class InsertionSort {
     }
 
     public void test() {
-        int[] arr = {10,5,2,4,-1};
+        int[] arr = {10, 5, 2, 4, -1, 6, 9};
         sort(arr);
         printArr(arr);
 
