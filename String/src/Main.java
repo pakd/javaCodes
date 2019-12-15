@@ -7,8 +7,12 @@ public class Main {
 //        LongestPalindromicSubstring longestPalindromicSubstring = new LongestPalindromicSubstring();
 //        longestPalindromicSubstring.test();
 
-        // test longest palindromic subsequence
-        LongestPalindromicSubsequence longestPalindromicSubsequence = new LongestPalindromicSubsequence();
-        longestPalindromicSubsequence.test();
+//        // test longest palindromic subsequence
+//        LongestPalindromicSubsequence longestPalindromicSubsequence = new LongestPalindromicSubsequence();
+//        longestPalindromicSubsequence.test();
+
+        // test palindromic partitioning
+        PalindromicPartitioning palindromicPartitioning = new PalindromicPartitioning();
+        palindromicPartitioning.test();
     }
 }
