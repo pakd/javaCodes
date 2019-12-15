@@ -11,8 +11,12 @@ public class Main {
 //        LongestPalindromicSubsequence longestPalindromicSubsequence = new LongestPalindromicSubsequence();
 //        longestPalindromicSubsequence.test();
 
-        // test palindromic partitioning
-        PalindromicPartitioning palindromicPartitioning = new PalindromicPartitioning();
-        palindromicPartitioning.test();
+//        // test palindromic partitioning
+//        PalindromicPartitioning palindromicPartitioning = new PalindromicPartitioning();
+//        palindromicPartitioning.test();
+
+        // test rabin karp search
+        RabinKarpSearch rabinKarpSearch = new RabinKarpSearch();
+        rabinKarpSearch.test();
     }
 }
