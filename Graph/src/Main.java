@@ -14,9 +14,13 @@ public class Main {
 //        TopologicalSort topologicalSort = new TopologicalSort();
 //        topologicalSort.test();
 
-        // test alien dictionary
-        AlienDictionary alienDictionary = new AlienDictionary();
-        alienDictionary.test();
+//        // test alien dictionary
+//        AlienDictionary alienDictionary = new AlienDictionary();
+//        alienDictionary.test();
+
+        // test rat in a maze problem
+        RatInAMazeProblem ratInAMazeProblem = new RatInAMazeProblem();
+        ratInAMazeProblem.test();
 
     }
 }
