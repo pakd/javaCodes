@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Stack;
 
-public class TopologicalSort {
+public class AlienDictionary {
 
     class Graph {
 
@@ -51,28 +51,37 @@ public class TopologicalSort {
             }
 
             while(!stack.isEmpty()) {
-                System.out.print(stack.pop() + " ");
+                System.out.print((char)(stack.pop()+'a') + " ");
             }
 
         }
 
+        void alienDictionaryHelper(String[] input, int alphaSize) {
+
+            //Graph g = new Graph(alphaSize);
+            for(int i=0; i<input.length; i++) {
+                for(int j=0; j<input[i].length()-1; j++) {
+                    int source = input[i].charAt(j) - 'a';
+                    int end = input[i].charAt(j+1) - 'a';
+
+                    addEdge(source, end);
+                }
+            }
+
+            topologicalSort();
+        }
     }
-
-
 
 
     public void test() {
+        String[] words = {"ccee", "cdbb", "bae", "aee", "daa"}; // alpha = 5 -> cdbae
+        int aplhaSize = 5; // a,b,c,d,e
 
-        Graph g = new Graph(6);
-        g.addEdge(5, 2);
-        g.addEdge(5, 0);
-        g.addEdge(4, 0);
-        g.addEdge(4, 1);
-        g.addEdge(2, 3);
-        g.addEdge(3, 1);
+        Graph d = new Graph(5);
+        d.alienDictionaryHelper(words, aplhaSize);
 
-        g.topologicalSort();
+
+
 
     }
-
 }

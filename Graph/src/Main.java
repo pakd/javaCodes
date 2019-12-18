@@ -10,9 +10,13 @@ public class Main {
 //        DFS dfs = new DFS();
 //        dfs.test();
 
-        // test topological sort
-        TopologicalSort topologicalSort = new TopologicalSort();
-        topologicalSort.test();
+//        // test topological sort
+//        TopologicalSort topologicalSort = new TopologicalSort();
+//        topologicalSort.test();
+
+        // test alien dictionary
+        AlienDictionary alienDictionary = new AlienDictionary();
+        alienDictionary.test();
 
     }
 }
