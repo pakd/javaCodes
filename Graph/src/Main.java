@@ -18,9 +18,12 @@ public class Main {
 //        AlienDictionary alienDictionary = new AlienDictionary();
 //        alienDictionary.test();
 
-        // test rat in a maze problem
-        RatInAMazeProblem ratInAMazeProblem = new RatInAMazeProblem();
-        ratInAMazeProblem.test();
+//        // test rat in a maze problem
+//        RatInAMazeProblem ratInAMazeProblem = new RatInAMazeProblem();
+//        ratInAMazeProblem.test();
 
+        // test cycle in undirected graph
+        CycleInUndirectedGraph cycleInUndirectedGraph = new CycleInUndirectedGraph();
+        cycleInUndirectedGraph.test();
     }
 }
