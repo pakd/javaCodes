@@ -22,8 +22,12 @@ public class Main {
 //        RatInAMazeProblem ratInAMazeProblem = new RatInAMazeProblem();
 //        ratInAMazeProblem.test();
 
-        // test cycle in undirected graph
-        CycleInUndirectedGraph cycleInUndirectedGraph = new CycleInUndirectedGraph();
-        cycleInUndirectedGraph.test();
+//        // test cycle in undirected graph
+//        CycleInUndirectedGraph cycleInUndirectedGraph = new CycleInUndirectedGraph();
+//        cycleInUndirectedGraph.test();
+
+        // test find union rank cycle
+        UnionFindRankCycle unionFindRankCycle = new UnionFindRankCycle();
+        unionFindRankCycle.test();
     }
 }
