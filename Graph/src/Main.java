@@ -27,12 +27,18 @@ public class Main {
 //        cycleInUndirectedGraph.test();
 
 
-        // test cycle in directed graph
-        CycleInDirectedGraph cycleInDirectedGraph = new CycleInDirectedGraph();
-        cycleInDirectedGraph.test();
+//        // test cycle in directed graph
+//        CycleInDirectedGraph cycleInDirectedGraph = new CycleInDirectedGraph();
+//        cycleInDirectedGraph.test();
 
 //        // test find union rank cycle
 //        UnionFindRankCycle unionFindRankCycle = new UnionFindRankCycle();
 //        unionFindRankCycle.test();
+
+        // test kruskal mst
+        KruskalMST kruskalMST = new KruskalMST();
+        kruskalMST.test();
+
+
     }
 }
