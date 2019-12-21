@@ -37,11 +37,16 @@ public class Main {
 
 //        // test kruskal mst
 //        KruskalMST kruskalMST = new KruskalMST();
-//
+//        kruskalMST.test();
 
-        // test Kosaraju SCC algo
-        KosarajuSCCAlgorithm kosarajuSCCAlgorithm = new KosarajuSCCAlgorithm();
-        kosarajuSCCAlgorithm.test();
+
+//        // test Kosaraju SCC algo
+//        KosarajuSCCAlgorithm kosarajuSCCAlgorithm = new KosarajuSCCAlgorithm();
+//        kosarajuSCCAlgorithm.test();
+
+        // test bellman ford shortest path algorithm added
+        BellmanFordShortestPath bellmanFordShortestPath = new BellmanFordShortestPath();
+        bellmanFordShortestPath.test();
 
 
     }
