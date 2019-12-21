@@ -26,8 +26,13 @@ public class Main {
 //        CycleInUndirectedGraph cycleInUndirectedGraph = new CycleInUndirectedGraph();
 //        cycleInUndirectedGraph.test();
 
-        // test find union rank cycle
-        UnionFindRankCycle unionFindRankCycle = new UnionFindRankCycle();
-        unionFindRankCycle.test();
+
+        // test cycle in directed graph
+        CycleInDirectedGraph cycleInDirectedGraph = new CycleInDirectedGraph();
+        cycleInDirectedGraph.test();
+
+//        // test find union rank cycle
+//        UnionFindRankCycle unionFindRankCycle = new UnionFindRankCycle();
+//        unionFindRankCycle.test();
     }
 }

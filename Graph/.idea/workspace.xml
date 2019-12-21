@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38c4a01a-2604-40d7-ab7d-d2a43b82891e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/UnionFindRankCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CycleInDirectedGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Array/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BinarySearchTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DynamicProgramming/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicProgramming/.idea/workspace.xml" afterDir="false" />
@@ -31,21 +31,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            <state relative-caret-position="313">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CycleInUndirectedGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="41" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/UnionFindRankCycle.java">
+        <entry file="file://$PROJECT_DIR$/src/CycleInDirectedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="101" column="40" lean-forward="true" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
+            <state relative-caret-position="299">
+              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,12 +84,13 @@
         <option value="$PROJECT_DIR$/src/AlienDictionary.java" />
         <option value="$PROJECT_DIR$/src/RatInAMazeProblem.java" />
         <option value="$PROJECT_DIR$/src/CycleInUndirectedGraph.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/UnionFindRankCycle.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/CycleInDirectedGraph.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
@@ -89,8 +102,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,18 +170,19 @@
       <updated>1576605867824</updated>
       <workItem from="1576605872273" duration="2054000" />
       <workItem from="1576690454304" duration="3416000" />
-      <workItem from="1576861468009" duration="3889000" />
+      <workItem from="1576861468009" duration="3994000" />
+      <workItem from="1576922482097" duration="2098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9359000" />
+    <option name="totallyTimeSpent" value="11562000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="976" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12686567" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26200873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -225,16 +239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CycleInUndirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="68" column="8" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RatInAMazeProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -262,21 +266,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/UnionFindRankCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="349">
+          <caret line="101" column="40" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnionFindRankCycle.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="101" column="40" lean-forward="true" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
+        <state relative-caret-position="313">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CycleInUndirectedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="41" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CycleInDirectedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
           </folding>
         </state>
       </provider>
