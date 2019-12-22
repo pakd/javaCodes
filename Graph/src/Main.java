@@ -44,9 +44,13 @@ public class Main {
 //        KosarajuSCCAlgorithm kosarajuSCCAlgorithm = new KosarajuSCCAlgorithm();
 //        kosarajuSCCAlgorithm.test();
 
-        // test bellman ford shortest path algorithm added
-        BellmanFordShortestPath bellmanFordShortestPath = new BellmanFordShortestPath();
-        bellmanFordShortestPath.test();
+//        // test bellman ford shortest path algorithm added
+//        BellmanFordShortestPath bellmanFordShortestPath = new BellmanFordShortestPath();
+//        bellmanFordShortestPath.test();
+
+        //test Dijksta algo
+        DijkstraAlgoForShortestPath dijkstraAlgoForShortestPath = new DijkstraAlgoForShortestPath();
+        dijkstraAlgoForShortestPath.test();
 
 
     }
