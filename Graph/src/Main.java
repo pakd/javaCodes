@@ -48,9 +48,13 @@ public class Main {
 //        BellmanFordShortestPath bellmanFordShortestPath = new BellmanFordShortestPath();
 //        bellmanFordShortestPath.test();
 
-        //test Dijksta algo
-        DijkstraAlgoForShortestPath dijkstraAlgoForShortestPath = new DijkstraAlgoForShortestPath();
-        dijkstraAlgoForShortestPath.test();
+//        //test Dijksta algo
+//        DijkstraAlgoForShortestPath dijkstraAlgoForShortestPath = new DijkstraAlgoForShortestPath();
+//        dijkstraAlgoForShortestPath.test();
+
+        // test Prims algo
+        PrimsMST primsMST = new PrimsMST();
+        primsMST.test();
 
 
     }

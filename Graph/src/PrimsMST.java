@@ -1,7 +1,7 @@
+import java.sql.SQLOutput;
 import java.util.*;
 
-public class DijkstraAlgoForShortestPath {
-
+public class PrimsMST {
     class Node {
         int vertex;
         int distance;
@@ -18,9 +18,10 @@ public class DijkstraAlgoForShortestPath {
         boolean visited[];
 
         // Dijkstra related variables
-        Set<Integer> settled;
+        Set<Integer> inMST;
         PriorityQueue<Node> pq;
         int[] dist;
+        int[] parent;
 
         Graph(int v) {
             this.v = v;
@@ -29,7 +30,7 @@ public class DijkstraAlgoForShortestPath {
                 adj[i] = new LinkedList<>();
             }
 
-            settled = new HashSet<>();
+            inMST = new HashSet<>();
 
             pq = new PriorityQueue<>(new Comparator<Node>() {
                 @Override
@@ -38,37 +39,44 @@ public class DijkstraAlgoForShortestPath {
                 }
             });
 
+            parent = new int[v];
+            Arrays.fill(parent, -1);
+
             dist = new int[v];
             Arrays.fill(dist, Integer.MAX_VALUE);
+
+
         }
 
         void addEdge(int v, int w, int weight) {
             adj[v].add(new Node(w, weight));
+            adj[w].add(new Node(v, weight));
         }
 
-        void Dijkstra(int src) {
+        void Prims(int src) {
             dist[src] = 0;
 
             pq.add(new Node(src, 0));
 
-            while(settled.size() < v) {
+            while(inMST.size() < v) {
 
                 Node temp = pq.remove();
-                settled.add(temp.vertex);
+                inMST.add(temp.vertex);
                 neighbourProcessing(temp.vertex);
             }
 
-            printDistArray();
+            printMST();
         }
 
         void neighbourProcessing(int u) {
             for(int i=0; i<adj[u].size(); i++) {
                 Node neighbour = adj[u].get(i);
 
-                if(!settled.contains(neighbour.vertex)) {
+                if(!inMST.contains(neighbour.vertex)) {
 
-                    if(dist[neighbour.vertex] > dist[u] + neighbour.distance) {
-                        dist[neighbour.vertex] = dist[u] + neighbour.distance;
+                    if(dist[neighbour.vertex] > neighbour.distance) {
+                        dist[neighbour.vertex] =  neighbour.distance;
+                        parent[neighbour.vertex] = u;
                     }
 
                     pq.add(new Node(neighbour.vertex, dist[neighbour.vertex]));
@@ -77,27 +85,37 @@ public class DijkstraAlgoForShortestPath {
             }
         }
 
-        void printDistArray() {
-            for(int i=0; i<v; i++) {
-                System.out.println(i + " " + dist[i]);
+        void printMST() {
+            System.out.println("Parent Matrix");
+            for(int i=1; i<v; i++) {
+                System.out.println(parent[i] + "->" + i);
             }
         }
 
 
 
     }
-
     public void test() {
-        Graph g = new Graph(5);
 
-        g.addEdge(0, 1, 9);
-        g.addEdge(0, 2, 6);
-        g.addEdge(0, 3, 5);
-        g.addEdge(0, 4, 3);
-        g.addEdge(2,1 ,2);
-        g.addEdge(2,3, 4);
+        int V = 9;
+        Graph g = new Graph(V);
 
-        g.Dijkstra(0);
 
+        g.addEdge(0, 1, 4);
+        g.addEdge(0, 7, 8);
+        g.addEdge(1, 2, 8);
+        g.addEdge(1, 7, 11);
+        g.addEdge(2, 3, 7);
+        g.addEdge(2, 8, 2);
+        g.addEdge(2, 5, 4);
+        g.addEdge(3, 4, 9);
+        g.addEdge(3, 5, 14);
+        g.addEdge(4, 5, 10);
+        g.addEdge(5, 6, 2);
+        g.addEdge(6, 7, 1);
+        g.addEdge(6, 8, 6);
+        g.addEdge(7, 8, 7);
+
+        g.Prims(0);
     }
 }
