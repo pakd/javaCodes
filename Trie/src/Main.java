@@ -8,8 +8,12 @@ public class Main {
 //        TrieBasic trieBasic = new TrieBasic();
 //        trieBasic.test();
 
-        //test print all anagrams together
-        PrintAllAnagramsTogether printAllAnagramsTogether = new PrintAllAnagramsTogether();
-        printAllAnagramsTogether.test();
+//        //test print all anagrams together
+//        PrintAllAnagramsTogether printAllAnagramsTogether = new PrintAllAnagramsTogether();
+//        printAllAnagramsTogether.test();
+
+        //test phone directory
+        PhoneDirectory phoneDirectory = new PhoneDirectory();
+        phoneDirectory.test();
     }
 }

@@ -35,6 +35,8 @@ public class TrieBasic {
             return curr.isLeaf;
         }
     }
+
+
     public void test() {
         Trie t = new Trie();
         t.insert("deepak");
