@@ -1,9 +1,15 @@
+import java.util.PriorityQueue;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
 
-        Trie test1 = new Trie();
-        test1.test_trie_basics();
+//        // test trie basic
+//        TrieBasic trieBasic = new TrieBasic();
+//        trieBasic.test();
+
+        //test print all anagrams together
+        PrintAllAnagramsTogether printAllAnagramsTogether = new PrintAllAnagramsTogether();
+        printAllAnagramsTogether.test();
     }
 }
