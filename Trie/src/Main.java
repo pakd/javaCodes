@@ -16,8 +16,12 @@ public class Main {
 //        PhoneDirectory phoneDirectory = new PhoneDirectory();
 //        phoneDirectory.test();
 
-        // test print longest common prefix
-        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
-        longestCommonPrefix.test();
+//        // test print longest common prefix
+//        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+//        longestCommonPrefix.test();
+
+        // test find longest prefix
+        FindLongestPrefix findLongestPrefix = new FindLongestPrefix();
+        findLongestPrefix.test();
     }
 }
