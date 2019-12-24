@@ -20,8 +20,12 @@ public class Main {
 //        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
 //        longestCommonPrefix.test();
 
-        // test find longest prefix
-        FindLongestPrefix findLongestPrefix = new FindLongestPrefix();
-        findLongestPrefix.test();
+//        // test find longest prefix
+//        FindLongestPrefix findLongestPrefix = new FindLongestPrefix();
+//        findLongestPrefix.test();
+
+        // test weighted search
+        WeightedSearch weightedSearch = new WeightedSearch();
+        weightedSearch.test();
     }
 }
