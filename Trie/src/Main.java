@@ -40,11 +40,15 @@ public class Main {
 //        PrintPatternUsingCamelCaseQuery printPatternUsingCamelCaseQuery = new PrintPatternUsingCamelCaseQuery();
 //        printPatternUsingCamelCaseQuery.test();
 
-        // test trie of all suffixes
-        TrieOfAllSuffixes trieOfAllSuffixes = new TrieOfAllSuffixes();
-        trieOfAllSuffixes.testPatternSearch();
+//        // test trie of all suffixes
+//        TrieOfAllSuffixes trieOfAllSuffixes = new TrieOfAllSuffixes();
+//        trieOfAllSuffixes.testPatternSearch();
+//
+//        // test count distinct substrings
+//        trieOfAllSuffixes.testCountDistinctSubstrings();
 
-        // test count distinct substrings
-        trieOfAllSuffixes.testCountDistinctSubstrings();
+        //test boggle
+        Boggle boggle = new Boggle();
+        boggle.test();
     }
 }
