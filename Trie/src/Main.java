@@ -36,8 +36,15 @@ public class Main {
 //        KMostFrequentWords kMostFrequentWords = new KMostFrequentWords();
 //        kMostFrequentWords.test();
 
-        // test CamelCase queries
-        PrintPatternUsingCamelCaseQuery printPatternUsingCamelCaseQuery = new PrintPatternUsingCamelCaseQuery();
-        printPatternUsingCamelCaseQuery.test();
+//        // test CamelCase queries
+//        PrintPatternUsingCamelCaseQuery printPatternUsingCamelCaseQuery = new PrintPatternUsingCamelCaseQuery();
+//        printPatternUsingCamelCaseQuery.test();
+
+        // test trie of all suffixes
+        TrieOfAllSuffixes trieOfAllSuffixes = new TrieOfAllSuffixes();
+        trieOfAllSuffixes.testPatternSearch();
+
+        // test count distinct substrings
+        trieOfAllSuffixes.testCountDistinctSubstrings();
     }
 }
