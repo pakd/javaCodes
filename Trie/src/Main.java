@@ -24,8 +24,12 @@ public class Main {
 //        FindLongestPrefix findLongestPrefix = new FindLongestPrefix();
 //        findLongestPrefix.test();
 
-        // test weighted search
-        WeightedSearch weightedSearch = new WeightedSearch();
-        weightedSearch.test();
+//        // test weighted search
+//        WeightedSearch weightedSearch = new WeightedSearch();
+//        weightedSearch.test();
+
+        // test valid word using char array
+        ValidWordUsingCharArray validWordUsingCharArray = new ValidWordUsingCharArray();
+        validWordUsingCharArray.test();
     }
 }
