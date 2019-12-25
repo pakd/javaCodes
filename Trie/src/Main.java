@@ -28,8 +28,12 @@ public class Main {
 //        WeightedSearch weightedSearch = new WeightedSearch();
 //        weightedSearch.test();
 
-        // test valid word using char array
-        ValidWordUsingCharArray validWordUsingCharArray = new ValidWordUsingCharArray();
-        validWordUsingCharArray.test();
+//        // test valid word using char array
+//        ValidWordUsingCharArray validWordUsingCharArray = new ValidWordUsingCharArray();
+//        validWordUsingCharArray.test();
+
+        // test k most frequent words
+        KMostFrequentWords kMostFrequentWords = new KMostFrequentWords();
+        kMostFrequentWords.test();
     }
 }
