@@ -32,8 +32,12 @@ public class Main {
 //        ValidWordUsingCharArray validWordUsingCharArray = new ValidWordUsingCharArray();
 //        validWordUsingCharArray.test();
 
-        // test k most frequent words
-        KMostFrequentWords kMostFrequentWords = new KMostFrequentWords();
-        kMostFrequentWords.test();
+//        // test k most frequent words
+//        KMostFrequentWords kMostFrequentWords = new KMostFrequentWords();
+//        kMostFrequentWords.test();
+
+        // test CamelCase queries
+        PrintPatternUsingCamelCaseQuery printPatternUsingCamelCaseQuery = new PrintPatternUsingCamelCaseQuery();
+        printPatternUsingCamelCaseQuery.test();
     }
 }
