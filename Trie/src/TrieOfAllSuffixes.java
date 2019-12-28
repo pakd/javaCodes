@@ -102,7 +102,7 @@ public class TrieOfAllSuffixes {
         String str = "ababa";
         Trie root = new Trie();
 
-        root.insertAllSuffixesWithPosition(str);
+        root.insertAllSuffixes(str);
 
         root.countNodes(root);
         System.out.println("Size :" + size);
