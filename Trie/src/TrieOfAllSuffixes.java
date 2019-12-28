@@ -90,7 +90,7 @@ public class TrieOfAllSuffixes {
         String txt = "geeksforgeeks.org";
         Trie root = new Trie();
 
-        root.insertAllSuffixes(txt);
+        root.insertAllSuffixesWithPosition(txt);
 
         root.search("geek"); // 0, 8
         root.search("forgeeks"); // 5
@@ -102,7 +102,7 @@ public class TrieOfAllSuffixes {
         String str = "ababa";
         Trie root = new Trie();
 
-        root.insertAllSuffixes(str);
+        root.insertAllSuffixesWithPosition(str);
 
         root.countNodes(root);
         System.out.println("Size :" + size);

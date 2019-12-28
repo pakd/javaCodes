@@ -41,7 +41,7 @@ public class LongestCommonPrefix {
     }
     public void test() {
 
-        String[] words = {"geeksforgeeks", "geeks", "geek", "geekzer"}; // ans = "gee"
+        String[] words = {"geeksforgeeks", "geeks", "geek", "geekzer"}; // ans = "geek"
         Trie trie = new Trie();
         for(String x : words) {
             trie.insert(x);
