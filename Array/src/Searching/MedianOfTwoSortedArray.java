@@ -12,17 +12,17 @@ public class MedianOfTwoSortedArray {
         int m = arr2.length;
 
         int start = 0;
-        int end = n-1;
+        int end = n;
 
         while(start <= end) {
 
             int midX = (start+end)/2;
             int j = (n + m + 1)/2 - midX;
 
-            int maxLeftX = (midX==0)? Integer.MAX_VALUE:arr1[midX-1];
-            int minRightX = (midX == n)?Integer.MIN_VALUE:arr1[midX];
-            int maxLeftY = (j==0)? Integer.MAX_VALUE:arr2[j-1];
-            int minRightY = (j == m)?Integer.MIN_VALUE:arr2[j];
+            int maxLeftX = (midX==0)? Integer.MIN_VALUE:arr1[midX-1];
+            int minRightX = (midX == n)?Integer.MAX_VALUE:arr1[midX];
+            int maxLeftY = (j==0)? Integer.MIN_VALUE:arr2[j-1];
+            int minRightY = (j == m)?Integer.MAX_VALUE:arr2[j];
 
             if(maxLeftX <= minRightY && maxLeftY <= minRightX) {
                 // even
