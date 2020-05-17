@@ -18,8 +18,12 @@ public class Main {
 //        PalindromicPartitioning palindromicPartitioning = new PalindromicPartitioning();
 //        palindromicPartitioning.testPalindromicPartitioning();
 
-        // test combination sum
-        CombinationSum combinationSum = new CombinationSum();
-        combinationSum.testGenerateCombinationSum();
+//        // test combination sum
+//        CombinationSum combinationSum = new CombinationSum();
+//        combinationSum.testGenerateCombinationSum();
+
+        // test NQueen
+        NQueen nQueen = new NQueen();
+        nQueen.testNQueen();
     }
 }
