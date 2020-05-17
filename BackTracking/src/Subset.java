@@ -42,7 +42,7 @@ public class Subset {
             }
             ans.add(list);
         }
-        PrintListOfList(ans);
+        printListOfList(ans);
 
         //sort logic
 
@@ -59,11 +59,11 @@ public class Subset {
             }
         });
 
-        PrintListOfList(ans);
+        printListOfList(ans);
     }
 
 
-    public void PrintListOfList(List<ArrayList<Integer>> list) {
+    public void printListOfList(List<ArrayList<Integer>> list) {
         for(int i=0; i<list.size(); i++) {
             for(int j=0; j<list.get(i).size(); j++) {
                 System.out.print(list.get(i).get(j) + " ");

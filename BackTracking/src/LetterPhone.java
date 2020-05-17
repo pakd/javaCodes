@@ -59,7 +59,7 @@ public class LetterPhone {
 
     public void printList(ArrayList<String> list) {
         for(String c : list) {
-            System.out.println(c + " ");
+            System.out.print(c + " ");
         }
     }
 

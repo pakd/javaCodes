@@ -9,8 +9,13 @@ public class Main {
 //        Subset subset = new Subset();
 //        subset.testGenerateAllSubsets();
 
-        // test letter phone
-        LetterPhone letterPhone = new LetterPhone();
-        letterPhone.testGenerateLetterCombinations();
+//        // test letter phone
+//        LetterPhone letterPhone = new LetterPhone();
+//        letterPhone.testGenerateLetterCombinations();
+
+
+        // test palindromic partitioning
+        PalindromicPartitioning palindromicPartitioning = new PalindromicPartitioning();
+        palindromicPartitioning.testPalindromicPartitioning();
     }
 }
