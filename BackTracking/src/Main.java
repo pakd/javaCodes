@@ -14,8 +14,12 @@ public class Main {
 //        letterPhone.testGenerateLetterCombinations();
 
 
-        // test palindromic partitioning
-        PalindromicPartitioning palindromicPartitioning = new PalindromicPartitioning();
-        palindromicPartitioning.testPalindromicPartitioning();
+//        // test palindromic partitioning
+//        PalindromicPartitioning palindromicPartitioning = new PalindromicPartitioning();
+//        palindromicPartitioning.testPalindromicPartitioning();
+
+        // test combination sum
+        CombinationSum combinationSum = new CombinationSum();
+        combinationSum.testGenerateCombinationSum();
     }
 }
