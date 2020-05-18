@@ -22,8 +22,12 @@ public class Main {
 //        CombinationSum combinationSum = new CombinationSum();
 //        combinationSum.testGenerateCombinationSum();
 
-        // test NQueen
-        NQueen nQueen = new NQueen();
-        nQueen.testNQueen();
+//        // test NQueen
+//        NQueen nQueen = new NQueen();
+//        nQueen.testNQueen();
+
+        // test permutation sequence
+        PermutationSequence permutationSequence = new PermutationSequence();
+        permutationSequence.testGeneratePermutationSequence();
     }
 }
