@@ -7,6 +7,8 @@ import Sorting.MedianOfStream;
 import Sorting.MinimumSwapsForSortedArray;
 import Sorting.SortArrayByFrequencyMaintainingOrder;
 
+import javax.naming.NamingException;
+
 
 public class Main {
 
@@ -105,9 +107,13 @@ public class Main {
 //        PeakElement peakElement = new PeakElement();
 //        peakElement.test();
 
-        // test ceiling in sorted array
-        CeilingInSortedArray ceilingInSortedArray = new CeilingInSortedArray();
-        ceilingInSortedArray.test();
+//        // test ceiling in sorted array
+//        CeilingInSortedArray ceilingInSortedArray = new CeilingInSortedArray();
+//        ceilingInSortedArray.test();
+
+        // test next permutation
+        NextPermutation nextPermutation = new NextPermutation();
+        nextPermutation.testFindNextPermutation();
 
 
 
