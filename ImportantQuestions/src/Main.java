@@ -5,6 +5,10 @@ public class Main {
 
 
         // test k most frequent words in review
-        new KMostFrequentWordsInAReview();
+        // new KMostFrequentWordsInAReview();
+
+
+        // test treasure island
+        new TreasureIsland();
     }
 }
