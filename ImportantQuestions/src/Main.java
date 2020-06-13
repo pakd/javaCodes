@@ -9,6 +9,9 @@ public class Main {
 
 
         // test treasure island
-        new TreasureIsland();
+        // new TreasureIsland();
+
+        // test optimal utilization. find pair close to target sum
+        new PairsCloseToTarget();
     }
 }
