@@ -59,10 +59,7 @@ public class PairsCloseToTarget {
 
         while(l < a.length && r >=0) {
 
-            int first = listA.get(l)[1];
-            int second = listB.get(r)[1];
-            int sum = first + second;
-
+            int sum = listA.get(l)[1] + listB.get(r)[1];
 
             if(sum > target) {
                 r--;
