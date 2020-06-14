@@ -12,6 +12,9 @@ public class Main {
         // new TreasureIsland();
 
         // test optimal utilization. find pair close to target sum
-        new PairsCloseToTarget();
+        // new PairsCloseToTarget();
+
+        // test minimum cost to repair edges
+        new MinimumCostToRepairEdges();
     }
 }
