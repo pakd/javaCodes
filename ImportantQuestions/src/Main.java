@@ -15,6 +15,9 @@ public class Main {
         // new PairsCloseToTarget();
 
         // test minimum cost to repair edges
-        new MinimumCostToRepairEdges();
+        // new MinimumCostToRepairEdges();
+
+        // test find substrings of size k with k distint characters
+        new SubstringOfSizeKWithKDistinctCharacters();
     }
 }
