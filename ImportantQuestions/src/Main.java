@@ -11,6 +11,9 @@ public class Main {
         // test treasure island
         // new TreasureIsland();
 
+        // test treasure island ii, multi source bfs
+        new TreasureIslandII();
+
         // test optimal utilization. find pair close to target sum
         // new PairsCloseToTarget();
 
@@ -18,6 +21,6 @@ public class Main {
         // new MinimumCostToRepairEdges();
 
         // test find substrings of size k with k distint characters
-        new SubstringOfSizeKWithKDistinctCharacters();
+        // new SubstringOfSizeKWithKDistinctCharacters();
     }
 }

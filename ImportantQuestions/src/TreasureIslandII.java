@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class TreasureIsland {
+public class TreasureIslandII {
 
     public int safeR = 0;
     public int safeC = 0;
@@ -26,18 +26,27 @@ public class TreasureIsland {
         }
     }
 
-    TreasureIsland() {
+    TreasureIslandII() {
         char[][] island = new char[][]{
-                {'O', 'O', 'O', 'O'},
-                {'D', 'O', 'D', 'O'},
-                {'O', 'O', 'O', 'O'},
-                {'X', 'D', 'D', 'O'}
-        };
+                {'S', 'O', 'O', 'S', 'S'},
+                {'D', 'O', 'D', 'O', 'D'},
+                {'O', 'O', 'O', 'O', 'X'},
+                {'X', 'D', 'D', 'O', 'O'},
+                {'X', 'D', 'D', 'D', 'O'}
+        }; // ans = 3
+
+//        char[][] island = new char[][] {
+//                {'S', 'O', 'O', 'S', 'S'},
+//                {'D', 'O', 'D', 'O', 'O'},
+//                {'O', 'O', 'O', 'O', 'X'},
+//                {'X', 'D', 'D', 'O', 'O'},
+//                {'X', 'D', 'D', 'D', 'O'}
+//        }; // ans = 2
 
         this.safeR = island.length;
         this.safeC = island[0].length;
 
-        System.out.println(findMinPath(island));
+        System.out.println(findMinPathMultiSource(island));
     }
 
 
@@ -48,7 +57,7 @@ public class TreasureIsland {
         return false;
     }
 
-    public int findMinPath(char[][] island) {
+    public int findMinPathMultiSource(char[][] island) {
 
         // all four directions
         int[][] dirs = new int[][]{
@@ -67,9 +76,20 @@ public class TreasureIsland {
 
         Queue<Node> q = new LinkedList<>();
 
-        //starting node
-        q.add(new Node(new Coordinate(0, 0), 0));
-        visited[0][0] = true;
+        //starting nodes
+
+        for(int i = 0; i < safeR; i++){
+            for(int j = 0; j < safeC; j++){
+                if(island[i][j] == 'S'){
+                    q.add(new Node(new Coordinate(i, j), 0));
+
+                    // mark starting node as D to block other paths
+                    // as shortest path can not be there from this blocked path
+                    island[i][j] = 'D';
+                    visited[i][j] = true;
+                }
+            }
+        }
 
 
         while(!q.isEmpty()) {
@@ -95,9 +115,5 @@ public class TreasureIsland {
 
         return -1;
     }
-
-
-
-
 
 }
