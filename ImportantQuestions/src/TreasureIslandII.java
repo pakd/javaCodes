@@ -91,7 +91,6 @@ public class TreasureIslandII {
             }
         }
 
-
         while(!q.isEmpty()) {
 
             Node temp = q.remove();

@@ -12,7 +12,7 @@ public class Main {
         // new TreasureIsland();
 
         // test treasure island ii, multi source bfs
-        new TreasureIslandII();
+        // new TreasureIslandII();
 
         // test optimal utilization. find pair close to target sum
         // new PairsCloseToTarget();
@@ -22,5 +22,8 @@ public class Main {
 
         // test find substrings of size k with k distint characters
         // new SubstringOfSizeKWithKDistinctCharacters();
+
+        // test find articulatin point
+        new ArticulationPoints();
     }
 }
